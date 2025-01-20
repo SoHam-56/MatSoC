@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/SoC_hls_component.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Jan 20 00:39:02 2025",
+ "timestampMillis": "1737313742530",
+ "buildStep": {
+  "cmdId": "486e934c-d6cb-4c4f-934e-280524273225",
+  "name": "vitis-run",
+  "logFile": "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/logs/SoC_hls_component.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg --work_dir SoC_hls_component ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg",
+   "--work_dir",
+   "SoC_hls_component"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Jan 20 00:39:02 2025",
+ "timestampMillis": "1737313742531",
+ "status": {
+  "cmdId": "486e934c-d6cb-4c4f-934e-280524273225",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Jan 20 00:39:06 2025",
+ "timestampMillis": "1737313746704",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "unpack_blk_to_stream",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/almavitis/VM_share/SOCExtraFeatures/src/dimensions.h",
+     "/home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Jan 20 00:39:06 2025",
+ "timestampMillis": "1737313746707",
+ "buildStep": {
+  "cmdId": "4d860a07-ae6d-4616-9ab2-3e96a002c23f",
+  "name": "csim_design",
+  "logFile": "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Jan 20 00:39:06 2025",
+ "timestampMillis": "1737313746708",
+ "status": {
+  "cmdId": "4d860a07-ae6d-4616-9ab2-3e96a002c23f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Jan 20 00:39:24 2025",
+ "timestampMillis": "1737313764328",
+ "status": {
+  "cmdId": "4d860a07-ae6d-4616-9ab2-3e96a002c23f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Jan 20 00:39:24 2025",
+ "timestampMillis": "1737313764455",
+ "status": {
+  "cmdId": "486e934c-d6cb-4c4f-934e-280524273225",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Jan 20 00:39:24 2025",
+ "timestampMillis": "1737313764456",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Jan 20 00:39:24 2025",
+ "timestampMillis": "1737313764456",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

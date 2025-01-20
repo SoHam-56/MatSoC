@@ -1,0 +1,796 @@
+[
+    {
+        "name": "_Z15write_to_streamRN3hls6streamINS_4axisISt7complexIfELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_INS1_IfLm0ELm0ELm0ELh56ELb0EEELi0EEE",
+        "df_function": "%F481",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 93,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 118,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 93,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 118,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 write_to_stream) BB 'codeRepl' [Atomic] 'Outline_T3_F481_R2_Atomic'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 98,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 99,
+                        "column": 20
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A1(32,8)",
+                                "name": "data_out.keep",
+                                "display_name": "Type_keep data_t::keep"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 4,
+                                                "end": 5,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A2(40,8)",
+                                "name": "data_out.strb",
+                                "display_name": "Type_strb data_t::strb"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 5,
+                                                "end": 6,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F484_R2",
+                        "description": "<atomic 'entry_iso0'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 98,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 99,
+                                "column": 20
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "4": {
+                "id": "4",
+                "name": "Region<OutlineCall(R3 write_to_stream) BB 'codeRepl1' [Loop] 'Outline_T4_F481_R3_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 101,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 117,
+                        "column": 3
+                    }
+                },
+                "display_name": "Process 2",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 93,
+                                    "column": 0
+                                },
+                                "id": "VId_802_*0(0,64)arg",
+                                "name": "fft_output",
+                                "display_name": "fft_complex_stream &fft_output"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Fifo",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A0(0,32)",
+                                "name": "data_out.data",
+                                "display_name": "Type_data data_t::data"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 4,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A4(56,8)",
+                                "name": "data_out.last",
+                                "display_name": "Type_last data_t::last"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 7,
+                                                "end": 8,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 7,
+                                                "end": 8,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 7,
+                                                "end": 8,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 7,
+                                                "end": 8,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A1(32,8)",
+                                "name": "data_out.keep",
+                                "display_name": "Type_keep data_t::keep"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 4,
+                                                "end": 5,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 4,
+                                                "end": 5,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A2(40,8)",
+                                "name": "data_out.strb",
+                                "display_name": "Type_strb data_t::strb"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 5,
+                                                "end": 6,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 5,
+                                                "end": 6,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A3(48,8)",
+                                "name": "data_out.user",
+                                "display_name": "Type_user data_t::user"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 6,
+                                                "end": 7,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 6,
+                                                "end": 7,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A5(64,8)",
+                                "name": "data_out.id",
+                                "display_name": "Type_id data_t::id"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 8,
+                                                "end": 9,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 8,
+                                                "end": 9,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A6(72,8)",
+                                "name": "data_out.dest",
+                                "display_name": "Type_dest data_t::dest"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 9,
+                                                "end": 10,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 9,
+                                                "end": 10,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 97,
+                                    "column": 10
+                                },
+                                "id": "VId_804_.A7(80,16)[?(?,8)]",
+                                "name": "data_out",
+                                "display_name": "data_t data_out"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 10,
+                                                "end": 11,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 11,
+                                                "end": 12,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 10,
+                                                "end": 11,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 11,
+                                                "end": 12,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 93,
+                                    "column": 0
+                                },
+                                "id": "VId_803_*0(0,64)arg",
+                                "name": "stream_output",
+                                "display_name": "fft_stream &stream_output"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Fifo",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F485_R2",
+                        "description": "<loop 'for.cond'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 101,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 117,
+                                "column": 3
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%L116",
+                        "region_type": "Loop",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 101,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 117,
+                                "column": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "fft_output_RAW_1_4_#0": {
+                "name": "fft_output_RAW_1_4_#0",
+                "variable_id": "VId_802_*0(0,64)arg",
+                "variable_name": "fft_output",
+                "declaration": "fft_complex_stream &fft_output",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 93,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "data_out.keep_RAW_3_4_#1": {
+                "name": "data_out.keep_RAW_3_4_#1",
+                "variable_id": "VId_804_.A1(32,8)",
+                "variable_name": "data_out.keep",
+                "declaration": "Type_keep data_t::keep",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 97,
+                    "column": 10
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "data_out.strb_RAW_3_4_#2": {
+                "name": "data_out.strb_RAW_3_4_#2",
+                "variable_id": "VId_804_.A2(40,8)",
+                "variable_name": "data_out.strb",
+                "declaration": "Type_strb data_t::strb",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 97,
+                    "column": 10
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "stream_output_RAW_4_2_#3": {
+                "name": "stream_output_RAW_4_2_#3",
+                "variable_id": "VId_803_*0(0,64)arg",
+                "variable_name": "stream_output",
+                "declaration": "fft_stream &stream_output",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 93,
+                    "column": 0
+                },
+                "source": "4",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "3",
+                "sink": "4"
+            },
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "4",
+                "sink": "2"
+            }
+        ]
+    }
+]

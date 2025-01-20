@@ -1,0 +1,16 @@
+---
+MainSourceFile:  /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/FFT.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '1862:25'
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '1865:2'
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '1865:12'
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+...

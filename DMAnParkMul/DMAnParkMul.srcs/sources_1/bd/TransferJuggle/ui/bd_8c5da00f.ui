@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.852336",
+   "Default View_TopLeft":"-65,-60",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1440 -y 540 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1440 -y 570 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 943 -y 600 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 2 -x 450 -y 440 -defaultsOSRD -orient R180
+preplace inst pack_stream_to_blk_0 -pg 1 -lvl 2 -x 450 -y 90 -defaultsOSRD
+preplace inst unpack_blk_to_stream_0 -pg 1 -lvl 3 -x 943 -y 90 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 943 -y 350 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 450 -y 640 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1320 -y 370 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 3 -x 943 -y 840 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 3 230 190 713 -50 1210
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 3 250 1000 N 1000 1170
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 260 180 703J -30 1190
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 1 1 240 80n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 1 2 260 750 N
+preplace netloc axi_dma_0_M_AXI_S2MM 1 1 2 240 770 N
+preplace netloc axi_mem_intercon_M00_AXI 1 2 2 733 990 1160
+preplace netloc pack_stream_to_blk_0_blk_stream 1 2 2 723 -20 1200
+preplace netloc processing_system7_0_DDR 1 3 2 NJ 550 1420
+preplace netloc processing_system7_0_FIXED_IO 1 3 2 NJ 570 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 733 180 1180J
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 2 723J 190 1160J
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 3 260 -40 NJ -40 1220J
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 2 733 -10 1170J
+preplace netloc unpack_blk_to_stream_0_float_stream 1 2 2 640 0 1160
+levelinfo -pg 1 0 90 450 943 1320 1440
+pagesize -pg 1 -db -bbox -sgen 0 -60 1650 1070
+"
+}
+{
+   "da_axi4_cnt":"5",
+   "da_clkrst_cnt":"6",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,605 @@
+[
+    {
+        "name": "_Z7hls_fftRN3hls6streamINS_4axisIfLm0ELm0ELm0ELh56ELb0EEELi0EEES4_",
+        "df_function": "%F492",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 265,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 280,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 265,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 280,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 hls_fft) BB 'codeRepl' [Atomic,Call] 'Outline_T3_F492_R2_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 277,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 277,
+                        "column": 51
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 265,
+                                    "column": 0
+                                },
+                                "id": "VId_825_*0(0,64)arg",
+                                "name": "stream_input",
+                                "display_name": "fft_stream &stream_input"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Fifo",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 270,
+                                    "column": 22
+                                },
+                                "id": "VId_827_!c?(?,?)",
+                                "name": "fft_in",
+                                "display_name": "fft_complex_stream fft_in"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "kind": "Fifo",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 1011
+                },
+                "subregions": [
+                    {
+                        "id": "%F510_R1",
+                        "description": "<function entry>"
+                    },
+                    {
+                        "id": "%F510_R2",
+                        "description": "<call 'read_input_data_from_stream'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 277,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 277,
+                                "column": 51
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%F493",
+                        "region_type": "Function",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 277,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 277,
+                                "column": 51
+                            }
+                        }
+                    }
+                ],
+                "guidance": [
+                    {
+                        "type": "CallGuidance",
+                        "ti": {
+                            "min": 1010,
+                            "max": 1010
+                        },
+                        "ureg_id": "%F493",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 277,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 277,
+                                "column": 51
+                            }
+                        }
+                    }
+                ]
+            },
+            "4": {
+                "id": "4",
+                "name": "Region<OutlineCall(R3 hls_fft) BB 'codeRepl1' [Atomic,Call] 'Outline_T4_F492_R3_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 278,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 278,
+                        "column": 30
+                    }
+                },
+                "display_name": "Process 2",
+                "io_signatures": {
+                    "has_unresolved_accesses": true,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 270,
+                                    "column": 22
+                                },
+                                "id": "VId_827_.A0(0,64)",
+                                "name": "fft_in.Handle",
+                                "display_name": "axis<std::complex<float>, 0UL, 0UL, 0UL, (unsigned char)'8', false> *fft_complex_stream::Handle"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 270,
+                                    "column": 22
+                                },
+                                "id": "VId_827_!c?(?,?)",
+                                "name": "fft_in",
+                                "display_name": "fft_complex_stream fft_in"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Fifo",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 271,
+                                    "column": 22
+                                },
+                                "id": "VId_828_!c?(?,?)",
+                                "name": "fft_out",
+                                "display_name": "fft_complex_stream fft_out"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Fifo",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 5124
+                },
+                "subregions": [
+                    {
+                        "id": "%F511_R1",
+                        "description": "<function entry>"
+                    },
+                    {
+                        "id": "%F511_R2",
+                        "description": "<call 'call_fft_ip'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 278,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 278,
+                                "column": 30
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%F494",
+                        "region_type": "Function",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 278,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 278,
+                                "column": 30
+                            }
+                        }
+                    }
+                ],
+                "guidance": [
+                    {
+                        "type": "CallGuidance",
+                        "ti": {
+                            "min": 5123,
+                            "max": 5123
+                        },
+                        "ureg_id": "%F494",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 278,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 278,
+                                "column": 30
+                            }
+                        }
+                    }
+                ]
+            },
+            "5": {
+                "id": "5",
+                "name": "Region<OutlineCall(R4 hls_fft) BB 'codeRepl2' [Atomic,Call] 'Outline_T5_F492_R4_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 279,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                        "line": 279,
+                        "column": 53
+                    }
+                },
+                "display_name": "Process 3",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 271,
+                                    "column": 22
+                                },
+                                "id": "VId_828_!c?(?,?)",
+                                "name": "fft_out",
+                                "display_name": "fft_complex_stream fft_out"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Fifo",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                    "line": 265,
+                                    "column": 0
+                                },
+                                "id": "VId_826_*0(0,64)arg",
+                                "name": "stream_output",
+                                "display_name": "fft_stream &stream_output"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                },
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Fifo",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 2055
+                },
+                "subregions": [
+                    {
+                        "id": "%F512_R1",
+                        "description": "<function entry>"
+                    },
+                    {
+                        "id": "%F512_R2",
+                        "description": "<call 'write_output_data_to_stream'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 279,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 279,
+                                "column": 53
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%F495",
+                        "region_type": "Function",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 279,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 279,
+                                "column": 53
+                            }
+                        }
+                    }
+                ],
+                "guidance": [
+                    {
+                        "type": "CallGuidance",
+                        "ti": {
+                            "min": 2054,
+                            "max": 2054
+                        },
+                        "ureg_id": "%F495",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 279,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                                "line": 279,
+                                "column": 53
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "stream_input_RAW_1_3_#0": {
+                "name": "stream_input_RAW_1_3_#0",
+                "variable_id": "VId_825_*0(0,64)arg",
+                "variable_name": "stream_input",
+                "declaration": "fft_stream &stream_input",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 81,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                    "line": 265,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 81162,
+                    "channel_rate": 1.5839578454332553E1
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "fft_in_RAW_3_4_#1": {
+                "name": "fft_in_RAW_3_4_#1",
+                "variable_id": "VId_827_!c?(?,?)",
+                "variable_name": "fft_in",
+                "declaration": "fft_complex_stream fft_in",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 121,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                    "line": 270,
+                    "column": 22
+                },
+                "metrics": {
+                    "volume": 121242,
+                    "channel_rate": 2.3661592505854802E1
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "fft_out_RAW_4_5_#2": {
+                "name": "fft_out_RAW_4_5_#2",
+                "variable_id": "VId_828_!c?(?,?)",
+                "variable_name": "fft_out",
+                "declaration": "fft_complex_stream fft_out",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 121,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                    "line": 271,
+                    "column": 22
+                },
+                "metrics": {
+                    "volume": 123904,
+                    "channel_rate": 2.418110850897736E1
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "stream_output_RAW_5_2_#3": {
+                "name": "stream_output_RAW_5_2_#3",
+                "variable_id": "VId_826_*0(0,64)arg",
+                "variable_name": "stream_output",
+                "declaration": "fft_stream &stream_output",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 81,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp",
+                    "line": 265,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 165888,
+                    "channel_rate": 3.237470725995316E1
+                },
+                "source": "5",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "3",
+                "sink": "4"
+            },
+            {
+                "source": "4",
+                "sink": "5"
+            },
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "5",
+                "sink": "2"
+            }
+        ]
+    }
+]

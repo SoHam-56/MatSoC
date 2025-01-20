@@ -1,0 +1,1619 @@
+---
+MainSourceFile:  /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1223_1:  '
+    FileOffset:      1223
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          252210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          479660
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          480124
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          480589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          763603
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1215249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1216067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1218718
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1221445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1224606
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1224687
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1226996
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1228494
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1228724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1234914
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1236517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1244376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1244526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1244623
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1246487
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1246637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1246734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1247115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1247346
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1250793
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1250945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1251045
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1251427
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1251665
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1267220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1267372
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1267471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1267648
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1267746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1268031
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1268286
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1300525
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1300677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1300777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1303453
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1303603
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1303701
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1307171
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1307322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1307421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1307901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1308143
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1313715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1313867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1313966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1314475
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1314724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1332081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1332233
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1332333
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1332807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1333074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1371645
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1371797
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1371897
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1374517
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1374680
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1374772
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1376381
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1376543
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1376635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1377008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1379474
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1379641
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1379734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1380115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1385556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1385724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1385818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1385989
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1386080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1386362
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1386549
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1421019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1421187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1421281
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1423083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1423191
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1423262
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1423550
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1424764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1424875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1424948
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1425243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1428576
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1428687
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1428760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1429056
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1448368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1448482
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1448557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1448844
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1474454
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1474568
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1474645
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_log_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1508728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_log_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1517117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_log_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1536094
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1550968
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1551489
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1567436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1568590
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1568899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1569409
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1571331
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1571696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1572004
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1573836
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1574161
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_diff_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1576832
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_diff_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1579736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_diff_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1581027
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1591987
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1592162
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1592323
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1592485
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1592659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1592834
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1592995
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1593157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_mad_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1664803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_cbrt_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1666558
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1671095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1671830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          1673519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_462_1:  '
+    FileOffset:      462
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2531561
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_462_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_464_2:  '
+    FileOffset:      464
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2531605
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_464_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_847_1:  '
+    FileOffset:      847
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2533600
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_847_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_926_1:  '
+    FileOffset:      926
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2535613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_926_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_986_1:  '
+    FileOffset:      986
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2537635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_986_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1045_1:  '
+    FileOffset:      1045
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2539746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1045_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1047_2:  '
+    FileOffset:      1047
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2539790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1047_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1090_1:  '
+    FileOffset:      1090
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2540900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1090_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1105_1:  '
+    FileOffset:      1105
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2541617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1105_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1575_1:  '
+    FileOffset:      1575
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2553559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1590_1:  '
+    FileOffset:      1590
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2553963
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1647_1:  '
+    FileOffset:      1647
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2555923
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1647_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1698_1:  '
+    FileOffset:      1698
+    FilePath:        /tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2557776
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1698_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2567795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_2:  '
+    FileOffset:      32
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2567883
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_3:  '
+    FileOffset:      33
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2567919
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_1:  '
+    FileOffset:      51
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2568528
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_2:  '
+    FileOffset:      57
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2568631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_62_3:  '
+    FileOffset:      62
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2568719
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_62_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_63_4:  '
+    FileOffset:      63
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2568755
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_63_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_1:  '
+    FileOffset:      96
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2569562
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_1:  '
+    FileOffset:      130
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2570368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_2:  '
+    FileOffset:      136
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2570471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_3:  '
+    FileOffset:      140
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2570533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_4:  '
+    FileOffset:      141
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2570569
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_172_1:  '
+    FileOffset:      172
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2571478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_172_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_2:  '
+    FileOffset:      174
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2571524
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_180_3:  '
+    FileOffset:      180
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2571637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_180_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_184_4:  '
+    FileOffset:      184
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2571703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_184_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_185_5:  '
+    FileOffset:      185
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2571741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_185_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_214_1:  '
+    FileOffset:      214
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2572555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_214_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_2:  '
+    FileOffset:      216
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2572602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_220_3:  '
+    FileOffset:      220
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2572702
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_220_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_1:  '
+    FileOffset:      255
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2573365
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_260_2:  '
+    FileOffset:      260
+    FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp
+    Replacements:    
+      - FilePath:        /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/.autopilot/db/MatCalc.pp.0.cpp
+        Offset:          2573488
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_260_2: '
+...

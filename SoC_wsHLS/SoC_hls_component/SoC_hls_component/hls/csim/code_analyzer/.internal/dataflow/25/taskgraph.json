@@ -1,0 +1,1333 @@
+[
+    {
+        "name": "_Z11call_fft_ipRN3hls6streamINS_4axisISt7complexIfELm0ELm0ELm0ELh56ELb0EEELi0EEES6_",
+        "df_function": "%F397",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 46,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 91,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 46,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 91,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 call_fft_ip) BB 'codeRepl' [Aggregate] 'Outline_T3_F397_R2_Aggregate'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 51,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 52,
+                        "column": 41
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 51,
+                                    "column": 23
+                                },
+                                "id": "VId_558_!c?(?,?)",
+                                "name": "xn",
+                                "display_name": "complex<float> xn[1024]"
+                            },
+                            "reads": [],
+                            "writes": [],
+                            "kind": "Unknown",
+                            "has_alias": true
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 51,
+                                    "column": 23
+                                },
+                                "id": "VId_558_[?(?,64)].A0(0,64).A0(0,32)",
+                                "name": "xn[*]._M_value",
+                                "display_name": "_ComplexT complex<float>::_M_value"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8188,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 51,
+                                    "column": 23
+                                },
+                                "id": "VId_558_[?(?,64)].A0(0,64).A1(32,32)",
+                                "name": "xn[*]._M_value",
+                                "display_name": "_ComplexT complex<float>::_M_value"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 4,
+                                                "end": 8192,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 52,
+                                    "column": 23
+                                },
+                                "id": "VId_559_!c?(?,?)",
+                                "name": "xk",
+                                "display_name": "complex<float> xk[1024]"
+                            },
+                            "reads": [],
+                            "writes": [],
+                            "kind": "Unknown",
+                            "has_alias": true
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 52,
+                                    "column": 23
+                                },
+                                "id": "VId_559_[?(?,64)].A0(0,64).A0(0,32)",
+                                "name": "xk[*]._M_value",
+                                "display_name": "_ComplexT complex<float>::_M_value"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8188,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 52,
+                                    "column": 23
+                                },
+                                "id": "VId_559_[?(?,64)].A0(0,64).A1(32,32)",
+                                "name": "xk[*]._M_value",
+                                "display_name": "_ComplexT complex<float>::_M_value"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 4,
+                                                "end": 8192,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 2051
+                },
+                "subregions": [
+                    {
+                        "id": "%F418_R2",
+                        "description": "<aggregate>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 51,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 52,
+                                "column": 41
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "4": {
+                "id": "4",
+                "name": "Region<OutlineCall(R3 call_fft_ip) BB 'codeRepl1' [Loop] 'Outline_T4_F397_R7_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 55,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 57,
+                        "column": 3
+                    }
+                },
+                "display_name": "Process 2",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 51,
+                                    "column": 23
+                                },
+                                "id": "VId_558_[?(?,64)]",
+                                "name": "xn[*]",
+                                "display_name": "complex<float> xn[1024]"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8192,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 1026
+                },
+                "subregions": [
+                    {
+                        "id": "%F419_R2",
+                        "description": "<loop 'for.cond'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 55,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 57,
+                                "column": 3
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%L104",
+                        "region_type": "Loop",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 55,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 57,
+                                "column": 3
+                            }
+                        }
+                    }
+                ],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 1024,
+                            "max": 1024
+                        },
+                        "ii": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "effective_tc": {
+                            "min": 1024,
+                            "max": 1024
+                        },
+                        "tc": {
+                            "min": 1024,
+                            "max": 1024
+                        },
+                        "ureg_id": "%L104",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 55,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 57,
+                                "column": 3
+                            }
+                        },
+                        "details": [
+                            {
+                                "type": "MemPortContention",
+                                "available_ports": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "required_ports": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variable": {
+                                    "name": "xn",
+                                    "display_name": "xn",
+                                    "id": "665",
+                                    "location": {
+                                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                        "line": 51,
+                                        "column": 0
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "id": "5",
+                "name": "Region<OutlineCall(R4 call_fft_ip) BB 'codeRepl2' [Loop] 'Outline_T5_F397_R19_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 63,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 71,
+                        "column": 3
+                    }
+                },
+                "display_name": "Process 3",
+                "io_signatures": {
+                    "has_unresolved_accesses": true,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 46,
+                                    "column": 0
+                                },
+                                "id": "VId_556_*0(0,64)arg.A0(0,64)",
+                                "name": "fft_input.Handle",
+                                "display_name": "axis<std::complex<float>, 0UL, 0UL, 0UL, (unsigned char)'8', false> *fft_complex_stream::Handle"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 46,
+                                    "column": 0
+                                },
+                                "id": "VId_556_*0(0,64)arg",
+                                "name": "fft_input",
+                                "display_name": "fft_complex_stream &fft_input"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Fifo",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 51,
+                                    "column": 23
+                                },
+                                "id": "VId_558_[?(?,64)]",
+                                "name": "xn[*]",
+                                "display_name": "complex<float> xn[1024]"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1002
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 1012
+                },
+                "subregions": [
+                    {
+                        "id": "%F420_R2",
+                        "description": "<loop 'while.cond'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 63,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 71,
+                                "column": 3
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 1002,
+                            "max": 1002
+                        },
+                        "ii": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "effective_tc": {
+                            "min": 1002,
+                            "max": 1002
+                        },
+                        "tc": {
+                            "min": 1002,
+                            "max": 1002
+                        },
+                        "ureg_id": "%L103",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 63,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 71,
+                                "column": 3
+                            }
+                        },
+                        "details": [
+                            {
+                                "type": "MemPortContention",
+                                "available_ports": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "required_ports": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variable": {
+                                    "name": "xn",
+                                    "display_name": "xn",
+                                    "id": "670",
+                                    "location": {
+                                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                        "line": 51,
+                                        "column": 0
+                                    }
+                                }
+                            },
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variables": [
+                                    {
+                                        "name": "i8.0 [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                            "line": 60,
+                                            "column": 7
+                                        }
+                                    },
+                                    {
+                                        "name": "i8.1 [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "inc14 [add]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                            "line": 69,
+                                            "column": 8
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variables": [
+                                    {
+                                        "name": "last_read.0 [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                            "line": 61,
+                                            "column": 8
+                                        }
+                                    },
+                                    {
+                                        "name": "last_read.1 [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "id": "6",
+                "name": "Region<OutlineCall(R5 call_fft_ip) BB 'codeRepl3' [Atomic] 'Outline_T6_F397_R33_Atomic'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 74,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 74,
+                        "column": 22
+                    }
+                },
+                "display_name": "Process 4",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": []
+                },
+                "metrics": {
+                    "initiation_interval": 1
+                },
+                "subregions": [
+                    {
+                        "id": "%F421_R2",
+                        "description": "<atomic 'while.end_iso7'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 74,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 74,
+                                "column": 22
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "7": {
+                "id": "7",
+                "name": "Region<OutlineCall(R6 call_fft_ip) BB 'codeRepl4' [Call] 'Outline_T7_F397_R34_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 77,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 77,
+                        "column": 22
+                    }
+                },
+                "display_name": "hls::ip_fft::config_t<FFT_IP_CONFIG>::setDir()",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 74,
+                                    "column": 12
+                                },
+                                "id": "VId_564_!c?(?,?)",
+                                "name": "fft_config",
+                                "display_name": "config_t fft_config"
+                            },
+                            "reads": [],
+                            "writes": [],
+                            "kind": "Unknown",
+                            "has_alias": true
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 2
+                },
+                "subregions": [
+                    {
+                        "id": "%F422_R2",
+                        "description": "<call 'hls::ip_fft::config_t<FFT_IP_CONFIG>::setDir'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 77,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 77,
+                                "column": 22
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "8": {
+                "id": "8",
+                "name": "Region<OutlineCall(R7 call_fft_ip) BB 'codeRepl5' [Call] 'Outline_T8_F397_R35_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 78,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 78,
+                        "column": 32
+                    }
+                },
+                "display_name": "hls::ip_fft::config_t<FFT_IP_CONFIG>::setNfft()",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 74,
+                                    "column": 12
+                                },
+                                "id": "VId_564_!c?(?,?)",
+                                "name": "fft_config",
+                                "display_name": "config_t fft_config"
+                            },
+                            "reads": [],
+                            "writes": [],
+                            "kind": "Unknown",
+                            "has_alias": true
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 2
+                },
+                "subregions": [
+                    {
+                        "id": "%F423_R2",
+                        "description": "<call 'hls::ip_fft::config_t<FFT_IP_CONFIG>::setNfft'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 78,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 78,
+                                "column": 32
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "9": {
+                "id": "9",
+                "name": "Region<OutlineCall(R8 call_fft_ip) BB 'codeRepl6' [Call] 'Outline_T9_F397_R36_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 81,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 81,
+                        "column": 59
+                    }
+                },
+                "display_name": "hls::fft<FFT_IP_CONFIG>()",
+                "io_signatures": {
+                    "has_unresolved_accesses": true,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 51,
+                                    "column": 23
+                                },
+                                "id": "VId_558_[?(?,64)]",
+                                "name": "xn[*]",
+                                "display_name": "complex<float> xn[1024]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8192,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 52,
+                                    "column": 23
+                                },
+                                "id": "VId_559_[?(?,64)]",
+                                "name": "xk[*]",
+                                "display_name": "complex<float> xk[1024]"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8192,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 74,
+                                    "column": 12
+                                },
+                                "id": "VId_564_!c?(?,?)",
+                                "name": "fft_config",
+                                "display_name": "config_t fft_config"
+                            },
+                            "reads": [],
+                            "writes": [],
+                            "kind": "Unknown",
+                            "has_alias": true
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 3
+                },
+                "subregions": [
+                    {
+                        "id": "%F424_R2",
+                        "description": "<call 'hls::fft<FFT_IP_CONFIG>'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 81,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 81,
+                                "column": 59
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "10": {
+                "id": "10",
+                "name": "Region<OutlineCall(R9 call_fft_ip) BB 'codeRepl7' [Loop] 'Outline_T10_F397_R37_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 84,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                        "line": 90,
+                        "column": 3
+                    }
+                },
+                "display_name": "Process 8",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 52,
+                                    "column": 23
+                                },
+                                "id": "VId_559_[?(?,64)]",
+                                "name": "xk[*]",
+                                "display_name": "complex<float> xk[1024]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8192,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                    "line": 46,
+                                    "column": 0
+                                },
+                                "id": "VId_557_*0(0,64)arg",
+                                "name": "fft_output",
+                                "display_name": "fft_complex_stream &fft_output"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Fifo",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "exec_count": 1024
+                                }
+                            ],
+                            "kind": "Fifo",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 1030
+                },
+                "subregions": [
+                    {
+                        "id": "%F425_R2",
+                        "description": "<loop 'for.cond16'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 84,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 90,
+                                "column": 3
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%L102",
+                        "region_type": "Loop",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 84,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 90,
+                                "column": 3
+                            }
+                        }
+                    }
+                ],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 1024,
+                            "max": 1024
+                        },
+                        "ii": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "effective_tc": {
+                            "min": 1024,
+                            "max": 1024
+                        },
+                        "tc": {
+                            "min": 1024,
+                            "max": 1024
+                        },
+                        "ureg_id": "%L102",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 84,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                "line": 90,
+                                "column": 3
+                            }
+                        },
+                        "details": [
+                            {
+                                "type": "MemPortContention",
+                                "available_ports": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "required_ports": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "ii_lower_bound": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "variable": {
+                                    "name": "xk",
+                                    "display_name": "xk",
+                                    "id": "679",
+                                    "location": {
+                                        "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                                        "line": 52,
+                                        "column": 0
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "xn[*]._M_value_WAW_3_4_#0": {
+                "name": "xn[*]._M_value_WAW_3_4_#0",
+                "variable_id": "VId_558_[?(?,64)].A0(0,64).A0(0,32)",
+                "variable_name": "xn[*]._M_value",
+                "declaration": "_ComplexT complex<float>::_M_value",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 51,
+                    "column": 23
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "xn[*]._M_value_WAW_3_4_#1": {
+                "name": "xn[*]._M_value_WAW_3_4_#1",
+                "variable_id": "VId_558_[?(?,64)].A0(0,64).A1(32,32)",
+                "variable_name": "xn[*]._M_value",
+                "declaration": "_ComplexT complex<float>::_M_value",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 51,
+                    "column": 23
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "fft_input_RAW_1_5_#2": {
+                "name": "fft_input_RAW_1_5_#2",
+                "variable_id": "VId_556_*0(0,64)arg",
+                "variable_name": "fft_input",
+                "declaration": "fft_complex_stream &fft_input",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 46,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64128,
+                    "channel_rate": 3.1266699171136032E1
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "fft_input.Handle_RAW_1_5_#3": {
+                "name": "fft_input.Handle_RAW_1_5_#3",
+                "variable_id": "VId_556_*0(0,64)arg.A0(0,64)",
+                "variable_name": "fft_input.Handle",
+                "declaration": "axis<std::complex<float>, 0UL, 0UL, 0UL, (unsigned char)'8', false> *fft_complex_stream::Handle",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 46,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "xn[*]_WAW_4_5_#4": {
+                "name": "xn[*]_WAW_4_5_#4",
+                "variable_id": "VId_558_[?(?,64)]",
+                "variable_name": "xn[*]",
+                "declaration": "complex<float> xn[1024]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 51,
+                    "column": 23
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "xn[*]_RAW_5_9_#5": {
+                "name": "xn[*]_RAW_5_9_#5",
+                "variable_id": "VId_558_[?(?,64)]",
+                "variable_name": "xn[*]",
+                "declaration": "complex<float> xn[1024]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 51,
+                    "column": 23
+                },
+                "metrics": {
+                    "volume": 32768,
+                    "channel_rate": 1.5976596782057532E1
+                },
+                "source": "5",
+                "sink": "9"
+            },
+            "xk[*]._M_value_WAW_3_9_#6": {
+                "name": "xk[*]._M_value_WAW_3_9_#6",
+                "variable_id": "VId_559_[?(?,64)].A0(0,64).A0(0,32)",
+                "variable_name": "xk[*]._M_value",
+                "declaration": "_ComplexT complex<float>::_M_value",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 52,
+                    "column": 23
+                },
+                "source": "3",
+                "sink": "9"
+            },
+            "xk[*]._M_value_WAW_3_9_#7": {
+                "name": "xk[*]._M_value_WAW_3_9_#7",
+                "variable_id": "VId_559_[?(?,64)].A0(0,64).A1(32,32)",
+                "variable_name": "xk[*]._M_value",
+                "declaration": "_ComplexT complex<float>::_M_value",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 52,
+                    "column": 23
+                },
+                "source": "3",
+                "sink": "9"
+            },
+            "xk[*]_RAW_9_10_#8": {
+                "name": "xk[*]_RAW_9_10_#8",
+                "variable_id": "VId_559_[?(?,64)]",
+                "variable_name": "xk[*]",
+                "declaration": "complex<float> xk[1024]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 52,
+                    "column": 23
+                },
+                "metrics": {
+                    "volume": 32768,
+                    "channel_rate": 1.5976596782057532E1
+                },
+                "source": "9",
+                "sink": "10"
+            },
+            "fft_output_RAW_10_2_#9": {
+                "name": "fft_output_RAW_10_2_#9",
+                "variable_id": "VId_557_*0(0,64)arg",
+                "variable_name": "fft_output",
+                "declaration": "fft_complex_stream &fft_output",
+                "kind": "Fifo",
+                "dependence": "RAW",
+                "channel_width": 121,
+                "src_loc": {
+                    "file": "/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp",
+                    "line": 46,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 123904,
+                    "channel_rate": 6.041150658215505E1
+                },
+                "source": "10",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "3",
+                "sink": "4"
+            },
+            {
+                "source": "4",
+                "sink": "5"
+            },
+            {
+                "source": "5",
+                "sink": "6"
+            },
+            {
+                "source": "6",
+                "sink": "7"
+            },
+            {
+                "source": "7",
+                "sink": "8"
+            },
+            {
+                "source": "8",
+                "sink": "9"
+            },
+            {
+                "source": "9",
+                "sink": "10"
+            },
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "10",
+                "sink": "2"
+            }
+        ]
+    }
+]

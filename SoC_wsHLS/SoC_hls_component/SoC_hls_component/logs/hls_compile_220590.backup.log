@@ -1,0 +1,133 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/SoC_hls_component.hlscompile_summary, at Tue Oct 22 13:05:46 2024
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component -config /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg -cmdlineconfig /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Oct 22 13:05:47 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /home/work/Xilinx/Install/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'work' on host 'workstation.ICcenterETCE.jadavpuruniversity.in' (Linux_x86_64 version 4.18.0-553.16.1.el8_10.x86_64) on Tue Oct 22 13:05:47 IST 2024
+INFO: [HLS 200-10] On os "AlmaLinux release 8.10 (Cerulean Leopard)"
+INFO: [HLS 200-10] In directory '/run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component'
+INFO: [HLS 200-2005] Using work_dir /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=/run/media/work/Storage/SOCExtraFeatures/src/dimensions.h' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file '/run/media/work/Storage/SOCExtraFeatures/src/dimensions.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/run/media/work/Storage/SOCExtraFeatures/src/MatCalc.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/run/media/work/Storage/SOCExtraFeatures/src/FFT.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/run/media/work/Storage/SOCExtraFeatures/src/tb.cpp' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file '/run/media/work/Storage/SOCExtraFeatures/src/tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=/run/media/work/Storage/SOCExtraFeatures/src/H_L2_1.csv' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file '/run/media/work/Storage/SOCExtraFeatures/src/H_L2_1.csv' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=pack_stream_to_blk' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'clock=5ns' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=0ns' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1.09 seconds. CPU system time: 0.13 seconds. Elapsed time: 1.11 seconds; current allocated memory: 269.809 MB.
+INFO: [HLS 200-10] Analyzing design file '../../src/FFT.cpp' ... 
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:1862:25)
+Resolution: For help on HLS 214-113 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-113.html
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:1865:2)
+Resolution: For help on HLS 214-113 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-113.html
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:1865:12)
+Resolution: For help on HLS 214-113 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-113.html
+WARNING: [HLS 200-471] Dataflow form checks found 3 issue(s) in file ../../src/FFT.cpp
+Resolution: For help on HLS 200-471 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-471.html
+WARNING: [HLS 207-5292] unused parameter 'data_type' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:112:72)
+WARNING: [HLS 207-5292] unused parameter 'cp_len_enable' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:136:61)
+WARNING: [HLS 207-5292] unused parameter 'scaling_opt' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:149:63)
+WARNING: [HLS 207-5292] unused parameter 'scaling_opt' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:326:66)
+WARNING: [HLS 207-5292] unused parameter 'has_ovflo' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:339:61)
+INFO: [HLS 200-10] Analyzing design file '../../src/MatCalc.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'data_type' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:112:72)
+WARNING: [HLS 207-5292] unused parameter 'cp_len_enable' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:136:61)
+WARNING: [HLS 207-5292] unused parameter 'scaling_opt' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:149:63)
+WARNING: [HLS 207-5292] unused parameter 'scaling_opt' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:326:66)
+WARNING: [HLS 207-5292] unused parameter 'has_ovflo' (/home/work/Xilinx/Install/Vitis_HLS/2024.1/common/technology/autopilot/hls_fft.h:339:61)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 19.05 seconds. CPU system time: 1.12 seconds. Elapsed time: 20.45 seconds; current allocated memory: 281.914 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 176 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 94 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 67 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 65 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 63 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 68 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /run/media/work/Storage/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/SoC_hls_component/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_96_1> at ../../src/MatCalc.cpp:96:20 
+INFO: [HLS 214-421] Automatically partitioning small array 'temp_blk' completely based on array size. (../../src/MatCalc.cpp:91:6)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'temp_blk' due to pipeline pragma (../../src/MatCalc.cpp:91:6)
+INFO: [HLS 214-248] Applying array_partition to 'temp_blk': Complete partitioning on dimension 1. (../../src/MatCalc.cpp:91:6)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1.18 seconds. CPU system time: 0.19 seconds. Elapsed time: 6.17 seconds; current allocated memory: 283.059 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 283.059 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 283.949 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 285.133 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../../src/MatCalc.cpp:99:39) to (../../src/MatCalc.cpp:107:24) in function 'pack_stream_to_blk'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 307.637 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 307.637 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'pack_stream_to_blk' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pack_stream_to_blk' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_96_1'.
+WARNING: [HLS 200-880] The II Violation in module 'pack_stream_to_blk' (loop 'VITIS_LOOP_96_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between axis read operation ('empty_12', ../../src/MatCalc.cpp:99) on port 'float_stream_V_data_V' (../../src/MatCalc.cpp:99) and axis request operation ('tmp_1', ../../src/MatCalc.cpp:97) on port 'float_stream_V_data_V' (../../src/MatCalc.cpp:97).
+Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 4, loop 'VITIS_LOOP_96_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 307.637 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 307.637 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pack_stream_to_blk' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'pack_stream_to_blk/float_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pack_stream_to_blk/float_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pack_stream_to_blk/float_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pack_stream_to_blk/float_stream_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pack_stream_to_blk/float_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'pack_stream_to_blk/blk_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'pack_stream_to_blk' to 's_axilite & ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'pack_stream_to_blk' pipeline 'VITIS_LOOP_96_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port CTRL_STRM_BLK.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pack_stream_to_blk'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 307.637 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 307.637 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.24 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.26 seconds; current allocated memory: 309.195 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for pack_stream_to_blk.
+INFO: [VLOG 209-307] Generating Verilog RTL for pack_stream_to_blk.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 241.55 MHz
+INFO: [HLS 200-112] Total CPU user time: 21.75 seconds. Total CPU system time: 1.47 seconds. Total elapsed time: 28.22 seconds; peak allocated memory: 309.195 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 31s
