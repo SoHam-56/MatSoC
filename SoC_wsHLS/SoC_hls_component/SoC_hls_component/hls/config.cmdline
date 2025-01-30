@@ -1,3 +1,0 @@
-relativeroot=/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component
-original_argv=--mode hls --csim --config /home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS/SoC_hls_component/hls_config.cfg --work_dir SoC_hls_component 
-

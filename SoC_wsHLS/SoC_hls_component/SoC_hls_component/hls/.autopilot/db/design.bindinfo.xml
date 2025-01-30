@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<BindInfo>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op xor" ID="" IMPL="auto" LATENCY="0" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln255_fu_121_p2" SOURCE="../../src/MatCalc.cpp:255" VARIABLE="xor_ln255" MODULE="unpack_blk_to_stream" LOOP="VITIS_LOOP_255_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op or" ID="" IMPL="auto" LATENCY="0" OPTYPE="or" PRAGMA="" RTLNAME="or_ln255_fu_127_p2" SOURCE="../../src/MatCalc.cpp:255" VARIABLE="or_ln255" MODULE="unpack_blk_to_stream" LOOP="VITIS_LOOP_255_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op xor" ID="" IMPL="auto" LATENCY="0" OPTYPE="xor" PRAGMA="" RTLNAME="axis_data_last_fu_156_p2" SOURCE="../../src/MatCalc.cpp:267" VARIABLE="axis_data_last" MODULE="unpack_blk_to_stream" LOOP="VITIS_LOOP_255_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
-	<BindNode BINDTYPE="op" DISPLAY="bind_op or" ID="" IMPL="auto" LATENCY="0" OPTYPE="or" PRAGMA="" RTLNAME="last_seen_3_fu_161_p2" SOURCE="../../src/MatCalc.cpp:267" VARIABLE="last_seen_3" MODULE="unpack_blk_to_stream" LOOP="VITIS_LOOP_255_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
-	<BindNode BINDTYPE="adapter" DISPLAY="bind_adapter axilite" ID="" IMPL="" LATENCY="" OPTYPE="" PRAGMA="" RTLNAME="CTRL_s_axi_U" SOURCE="" VARIABLE="" MODULE="unpack_blk_to_stream" LOOP="" BUNDLEDNAME="CTRL" DSP="0" BRAM="0" URAM="0" USAGE="interface" STORAGESUBTYPE="s_axilite" STORAGESIZE=""/>
-</BindInfo>
