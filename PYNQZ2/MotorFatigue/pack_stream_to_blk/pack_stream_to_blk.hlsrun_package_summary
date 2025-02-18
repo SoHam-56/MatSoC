@@ -1,0 +1,160 @@
+<ENTRY>
+{
+ "thisFile": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/pack_stream_to_blk.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Feb 18 03:51:41 2025",
+ "timestampMillis": "1739830901824",
+ "buildStep": {
+  "cmdId": "6e90f653-1bfe-4475-86de-d89357aeeac1",
+  "name": "vitis-run",
+  "logFile": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/logs/pack_stream_to_blk.steps.log",
+  "commandLine": "/home/admin/Xilinx/Vitis/2024.2/bin/unwrapped/lnx64.o/vitis-run  --mode hls --package --config /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg --work_dir pack_stream_to_blk ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg",
+   "--work_dir",
+   "pack_stream_to_blk"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Feb 18 03:51:41 2025",
+ "timestampMillis": "1739830901824",
+ "status": {
+  "cmdId": "6e90f653-1bfe-4475-86de-d89357aeeac1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Tue Feb 18 03:51:45 2025",
+ "timestampMillis": "1739830905497",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "calculate_statistics",
+     "file": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/calculate_statistics.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/admin/Desktop/SOCExtraFeatures/src/DataTypes.h",
+     "/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp",
+     "/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp",
+     "/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp",
+     "/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Feb 18 03:51:45 2025",
+ "timestampMillis": "1739830905498",
+ "buildStep": {
+  "cmdId": "6d69c533-0a75-463c-b763-52de057acf68",
+  "name": "",
+  "logFile": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Feb 18 03:51:45 2025",
+ "timestampMillis": "1739830905499",
+ "status": {
+  "cmdId": "6d69c533-0a75-463c-b763-52de057acf68",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Feb 18 03:52:12 2025",
+ "timestampMillis": "1739830932405",
+ "status": {
+  "cmdId": "6d69c533-0a75-463c-b763-52de057acf68",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Feb 18 03:52:12 2025",
+ "timestampMillis": "1739830932478",
+ "status": {
+  "cmdId": "6e90f653-1bfe-4475-86de-d89357aeeac1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Feb 18 03:52:12 2025",
+ "timestampMillis": "1739830932478",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Feb 18 03:52:12 2025",
+ "timestampMillis": "1739830932478",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 18 04:13:52 2025
+# Process ID         : 56332
+# Current directory  : /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1
+# Command line       : vivado -log MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1.tcl
+# Log file           : /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1.vds
+# Journal file       : /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/vivado.jou
+# Running On         : archlinux
+# Platform           : Arch
+# Operating System   : Arch Linux
+# Processor Detail   : AMD Ryzen 5 5600U with Radeon Graphics
+# CPU Frequency      : 2545.325 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16073 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20368 MB
+# Available Virtual  : 8924 MB
+#-----------------------------------------------------------
+source MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/admin/Desktop/SOCExtraFeatures/PYNQZ2_IPs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/admin/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 64caacd58df6c022 to dir: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.cache/ip/2024.2/6/4/64caacd58df6c022/MotorFatigue_PYNQZ2_axi_mem_intercon_2_imp_auto_us_1_stub.vhdl to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.cache/ip/2024.2/6/4/64caacd58df6c022/MotorFatigue_PYNQZ2_axi_mem_intercon_2_imp_auto_us_1_sim_netlist.v to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.cache/ip/2024.2/6/4/64caacd58df6c022/MotorFatigue_PYNQZ2_axi_mem_intercon_2_imp_auto_us_1_stub.v to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.cache/ip/2024.2/6/4/64caacd58df6c022/MotorFatigue_PYNQZ2_axi_mem_intercon_2_imp_auto_us_1_sim_netlist.vhdl to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.cache/ip/2024.2/6/4/64caacd58df6c022/MotorFatigue_PYNQZ2_axi_mem_intercon_2_imp_auto_us_1.dcp to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2_VIVADO/MotorFault_PYNQZ2.runs/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1_synth_1/MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1.dcp.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP MotorFatigue_PYNQZ2_axi_mem_intercon_imp_auto_us_1, cache-ID = 64caacd58df6c022.
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 04:13:58 2025...

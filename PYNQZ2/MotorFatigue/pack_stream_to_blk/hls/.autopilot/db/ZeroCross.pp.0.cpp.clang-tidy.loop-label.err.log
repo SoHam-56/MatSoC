@@ -1,0 +1,3 @@
+26 errors generated.
+Error while processing /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/ZeroCross.pp.0.cpp.
+clang-tidy applied 131 of 131 suggested fixes.

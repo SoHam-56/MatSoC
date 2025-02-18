@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 18 03:51:47 2025
+# Process ID         : 47536
+# Current directory  : /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/vivado.log
+# Journal file       : /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/vivado.jou
+# Running On         : archlinux
+# Platform           : Arch
+# Operating System   : Arch Linux
+# Processor Detail   : AMD Ryzen 5 5600U with Radeon Graphics
+# CPU Frequency      : 3992.436 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16073 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20368 MB
+# Available Virtual  : 10854 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/hls_data.json outdir=/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip srcdir=/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/misc
+INFO: Copied 23 verilog file(s) to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/hdl/verilog
+INFO: Copied 21 vhdl file(s) to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/drivers
+Generating 6 subcores in /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/hdl/ip.tmp:
+impl/misc/calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+impl/misc/calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+impl/misc/calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip.tcl
+impl/misc/calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip.tcl
+impl/misc/calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip.tcl
+impl/misc/calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip.tcl
+INFO: Using COE_DIR=/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/hdl/verilog
+INFO: Generating calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip via file impl/misc/calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/admin/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip'...
+INFO: Done generating calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip via file impl/misc/calculate_statistics_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.tcl
+INFO: Generating calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip'...
+INFO: Done generating calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip via file impl/misc/calculate_statistics_fcmp_32ns_32ns_1_2_no_dsp_1_ip.tcl
+INFO: Generating calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip via file impl/misc/calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip.tcl
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip'...
+INFO: Done generating calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip via file impl/misc/calculate_statistics_fdiv_32ns_32ns_32_16_no_dsp_1_ip.tcl
+INFO: Generating calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip via file impl/misc/calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip.tcl
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip'...
+INFO: Done generating calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip via file impl/misc/calculate_statistics_fmul_32ns_32ns_32_4_max_dsp_1_ip.tcl
+INFO: Generating calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip via file impl/misc/calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip.tcl
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip'...
+INFO: Done generating calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip via file impl/misc/calculate_statistics_fsqrt_32ns_32ns_32_16_no_dsp_1_ip.tcl
+INFO: Generating calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip via file impl/misc/calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip.tcl
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip'...
+INFO: Done generating calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip via file impl/misc/calculate_statistics_sitofp_32ns_32_6_no_dsp_1_ip.tcl
+INFO: Import ports from HDL: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/hdl/vhdl/calculate_statistics.vhd (calculate_statistics)
+INFO: Add axi4lite interface s_axi_CTRL
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/admin/Xilinx/Vivado/2024.2/data/ip'.
+INFO: Add axi4stream interface input_stream
+INFO: Add axi4stream interface output_stream
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/component.xml
+INFO: Created IP archive /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/impl/ip/xilinx_com_hls_calculate_statistics_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 03:52:02 2025...

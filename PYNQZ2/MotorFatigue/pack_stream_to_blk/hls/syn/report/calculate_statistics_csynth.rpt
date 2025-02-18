@@ -1,0 +1,256 @@
+
+
+================================================================
+== Vitis HLS Report for 'calculate_statistics'
+================================================================
+* Date:           Tue Feb 18 03:51:29 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        pack_stream_to_blk
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.386 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +--------------------------------------------------------+---------------------------------------------+---------+---------+-----------+----------+-----+-----+------------------------------------------------+
+        |                                                        |                                             |  Latency (cycles) |  Latency (absolute)  |  Interval |                    Pipeline                    |
+        |                        Instance                        |                    Module                   |   min   |   max   |    min    |    max   | min | max |                      Type                      |
+        +--------------------------------------------------------+---------------------------------------------+---------+---------+-----------+----------+-----+-----+------------------------------------------------+
+        |grp_calculate_statistics_Pipeline_read_data_fu_280      |calculate_statistics_Pipeline_read_data      |        3|        ?|  30.000 ns|         ?|    2|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_calc_sum_fu_297       |calculate_statistics_Pipeline_calc_sum       |        9|        ?|  90.000 ns|         ?|    8|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_calc_std_fu_307       |calculate_statistics_Pipeline_calc_std       |        ?|        ?|          ?|         ?|    0|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_find_minmax_fu_318    |calculate_statistics_Pipeline_find_minmax    |        ?|        ?|          ?|         ?|    0|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_calc_rms_fu_330       |calculate_statistics_Pipeline_calc_rms       |        ?|        ?|          ?|         ?|    0|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_calc_abs_mean_fu_340  |calculate_statistics_Pipeline_calc_abs_mean  |        ?|        ?|          ?|         ?|    0|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_calc_moments_fu_350   |calculate_statistics_Pipeline_calc_moments   |        ?|        ?|          ?|         ?|    0|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        |grp_calculate_statistics_Pipeline_write_results_fu_363  |calculate_statistics_Pipeline_write_results  |       13|       13|   0.130 us|  0.130 us|   12|   12|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        +--------------------------------------------------------+---------------------------------------------+---------+---------+-----------+----------+-----+-----+------------------------------------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     41|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    5|    2038|   2673|    -|
+|Memory           |        4|    -|      64|      6|    0|
+|Multiplexer      |        -|    -|       0|   1379|    -|
+|Register         |        -|    -|     586|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        4|    5|    2688|   4099|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        1|    2|       2|      7|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------------------------------------------------+---------------------------------------------+---------+----+-----+-----+-----+
+    |                        Instance                        |                    Module                   | BRAM_18K| DSP|  FF | LUT | URAM|
+    +--------------------------------------------------------+---------------------------------------------+---------+----+-----+-----+-----+
+    |CTRL_s_axi_U                                            |CTRL_s_axi                                   |        0|   0|   74|  104|    0|
+    |grp_calculate_statistics_Pipeline_calc_abs_mean_fu_340  |calculate_statistics_Pipeline_calc_abs_mean  |        0|   0|  167|  199|    0|
+    |grp_calculate_statistics_Pipeline_calc_moments_fu_350   |calculate_statistics_Pipeline_calc_moments   |        0|   0|  466|  373|    0|
+    |grp_calculate_statistics_Pipeline_calc_rms_fu_330       |calculate_statistics_Pipeline_calc_rms       |        0|   0|  200|  190|    0|
+    |grp_calculate_statistics_Pipeline_calc_std_fu_307       |calculate_statistics_Pipeline_calc_std       |        0|   0|  235|  250|    0|
+    |grp_calculate_statistics_Pipeline_calc_sum_fu_297       |calculate_statistics_Pipeline_calc_sum       |        0|   0|  168|  198|    0|
+    |grp_calculate_statistics_Pipeline_find_minmax_fu_318    |calculate_statistics_Pipeline_find_minmax    |        0|   0|  328|  435|    0|
+    |grp_calculate_statistics_Pipeline_read_data_fu_280      |calculate_statistics_Pipeline_read_data      |        0|   0|   44|  125|    0|
+    |grp_calculate_statistics_Pipeline_write_results_fu_363  |calculate_statistics_Pipeline_write_results  |        0|   0|    8|   88|    0|
+    |faddfsub_32ns_32ns_32_5_full_dsp_1_U75                  |faddfsub_32ns_32ns_32_5_full_dsp_1           |        0|   2|  205|  390|    0|
+    |fdiv_32ns_32ns_32_16_no_dsp_1_U77                       |fdiv_32ns_32ns_32_16_no_dsp_1                |        0|   0|    0|    0|    0|
+    |fdiv_32ns_32ns_32_16_no_dsp_1_U78                       |fdiv_32ns_32ns_32_16_no_dsp_1                |        0|   0|    0|    0|    0|
+    |fdiv_32ns_32ns_32_16_no_dsp_1_U79                       |fdiv_32ns_32ns_32_16_no_dsp_1                |        0|   0|    0|    0|    0|
+    |fmul_32ns_32ns_32_4_max_dsp_1_U76                       |fmul_32ns_32ns_32_4_max_dsp_1                |        0|   3|  143|  321|    0|
+    |fsqrt_32ns_32ns_32_16_no_dsp_1_U81                      |fsqrt_32ns_32ns_32_16_no_dsp_1               |        0|   0|    0|    0|    0|
+    |sitofp_32ns_32_6_no_dsp_1_U80                           |sitofp_32ns_32_6_no_dsp_1                    |        0|   0|    0|    0|    0|
+    +--------------------------------------------------------+---------------------------------------------+---------+----+-----+-----+-----+
+    |Total                                                   |                                             |        0|   5| 2038| 2673|    0|
+    +--------------------------------------------------------+---------------------------------------------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +-----------+-----------------------+---------+----+----+-----+------+-----+------+-------------+
+    |   Memory  |         Module        | BRAM_18K| FF | LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +-----------+-----------------------+---------+----+----+-----+------+-----+------+-------------+
+    |data_U     |data_RAM_AUTO_1R1W     |        1|   0|   0|    0|   256|   32|     1|         8192|
+    |data_1_U   |data_RAM_AUTO_1R1W     |        1|   0|   0|    0|   256|   32|     1|         8192|
+    |data_2_U   |data_RAM_AUTO_1R1W     |        1|   0|   0|    0|   256|   32|     1|         8192|
+    |data_3_U   |data_RAM_AUTO_1R1W     |        1|   0|   0|    0|   256|   32|     1|         8192|
+    |results_U  |results_RAM_AUTO_1R1W  |        0|  64|   6|    0|    11|   32|     1|          352|
+    +-----------+-----------------------+---------+----+----+-----+------+-----+------+-------------+
+    |Total      |                       |        4|  64|   6|    0|  1035|  160|     5|        33120|
+    +-----------+-----------------------+---------+----+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                                Variable Name                                | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |grp_calculate_statistics_Pipeline_write_results_fu_363_output_stream_TREADY  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln86_fu_439_p2                                                          |      icmp|   0|  0|  39|          32|           1|
+    +-----------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                                        |          |   0|  0|  41|          33|           2|
+    +-----------------------------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------+-----+-----------+-----+-----------+
+    |               Name               | LUT | Input Size| Bits| Total Bits|
+    +----------------------------------+-----+-----------+-----+-----------+
+    |ap_NS_fsm                         |  453|         90|    1|         90|
+    |data_1_address0                   |   42|          8|    8|         64|
+    |data_1_ce0                        |   42|          8|    1|          8|
+    |data_1_we0                        |    9|          2|    1|          2|
+    |data_2_address0                   |   42|          8|    8|         64|
+    |data_2_ce0                        |   42|          8|    1|          8|
+    |data_2_we0                        |    9|          2|    1|          2|
+    |data_3_address0                   |   42|          8|    8|         64|
+    |data_3_ce0                        |   42|          8|    1|          8|
+    |data_3_we0                        |    9|          2|    1|          2|
+    |data_address0                     |   42|          8|    8|         64|
+    |data_ce0                          |   42|          8|    1|          8|
+    |data_we0                          |    9|          2|    1|          2|
+    |grp_fu_376_ce                     |   31|          6|    1|          6|
+    |grp_fu_376_opcode                 |   42|          8|    2|         16|
+    |grp_fu_376_p0                     |   42|          8|   32|        256|
+    |grp_fu_376_p1                     |   42|          8|   32|        256|
+    |grp_fu_381_ce                     |   20|          4|    1|          4|
+    |grp_fu_381_p0                     |   25|          5|   32|        160|
+    |grp_fu_381_p1                     |   25|          5|   32|        160|
+    |grp_fu_385_p0                     |   42|          8|   32|        256|
+    |grp_fu_385_p1                     |   20|          4|   32|        128|
+    |grp_fu_390_ce                     |    9|          2|    1|          2|
+    |grp_fu_390_p0                     |   20|          4|   32|        128|
+    |grp_fu_390_p1                     |   20|          4|   32|        128|
+    |grp_fu_401_p1                     |   14|          3|   32|         96|
+    |input_stream_TREADY_int_regslice  |    9|          2|    1|          2|
+    |output_stream_TDATA_int_regslice  |    9|          2|   32|         64|
+    |output_stream_TKEEP_int_regslice  |    9|          2|    4|          8|
+    |output_stream_TLAST_int_regslice  |    9|          2|    1|          2|
+    |output_stream_TSTRB_int_regslice  |    9|          2|    4|          8|
+    |results_address0                  |    9|          2|    4|          8|
+    |results_address0_local            |   48|          9|    4|         36|
+    |results_address1_local            |   20|          4|    4|         16|
+    |results_ce0                       |    9|          2|    1|          2|
+    |results_d0_local                  |   42|          8|   32|        256|
+    |results_d1_local                  |   20|          4|   32|        128|
+    |sum_0_lcssa_reg_268               |    9|          2|   32|         64|
+    +----------------------------------+-----+-----------+-----+-----------+
+    |Total                             | 1379|        272|  485|       2576|
+    +----------------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------------------------------------------------------+----+----+-----+-----------+
+    |                                 Name                                | FF | LUT| Bits| Const Bits|
+    +---------------------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                            |  89|   0|   89|          0|
+    |conv_reg_554                                                         |  32|   0|   32|          0|
+    |div3_reg_606                                                         |  32|   0|   32|          0|
+    |div4_reg_611                                                         |  32|   0|   32|          0|
+    |div_reg_601                                                          |  32|   0|   32|          0|
+    |grp_calculate_statistics_Pipeline_calc_abs_mean_fu_340_ap_start_reg  |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_calc_moments_fu_350_ap_start_reg   |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_calc_rms_fu_330_ap_start_reg       |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_calc_std_fu_307_ap_start_reg       |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_calc_sum_fu_297_ap_start_reg       |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_find_minmax_fu_318_ap_start_reg    |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_read_data_fu_280_ap_start_reg      |   1|   0|    1|          0|
+    |grp_calculate_statistics_Pipeline_write_results_fu_363_ap_start_reg  |   1|   0|    1|          0|
+    |icmp_ln86_reg_541                                                    |   1|   0|    1|          0|
+    |min_val_reg_568                                                      |  32|   0|   32|          0|
+    |mul5_reg_596                                                         |  32|   0|   32|          0|
+    |n_read_reg_482                                                       |  32|   0|   32|          0|
+    |output_stream_TDATA_reg                                              |  32|   0|   32|          0|
+    |output_stream_TKEEP_reg                                              |   4|   0|    4|          0|
+    |output_stream_TLAST_reg                                              |   1|   0|    1|          0|
+    |output_stream_TSTRB_reg                                              |   4|   0|    4|          0|
+    |reg_406                                                              |  32|   0|   32|          0|
+    |reg_418                                                              |  32|   0|   32|          0|
+    |reg_425                                                              |  32|   0|   32|          0|
+    |reg_433                                                              |  32|   0|   32|          0|
+    |sum_0_lcssa_reg_268                                                  |  32|   0|   32|          0|
+    |trunc_ln86_reg_545                                                   |  31|   0|   31|          0|
+    |x_assign_3_reg_579                                                   |  32|   0|   32|          0|
+    +---------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                                | 586|   0|  586|          0|
+    +---------------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------+-----+-----+------------+------------------------+--------------+
+|       RTL Ports      | Dir | Bits|  Protocol  |      Source Object     |    C Type    |
++----------------------+-----+-----+------------+------------------------+--------------+
+|s_axi_CTRL_AWVALID    |   in|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_AWREADY    |  out|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_AWADDR     |   in|    5|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_WVALID     |   in|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_WREADY     |  out|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_WDATA      |   in|   32|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_WSTRB      |   in|    4|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_ARVALID    |   in|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_ARREADY    |  out|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_ARADDR     |   in|    5|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_RVALID     |  out|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_RREADY     |   in|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_RDATA      |  out|   32|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_RRESP      |  out|    2|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_BVALID     |  out|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_BREADY     |   in|    1|       s_axi|                    CTRL|        scalar|
+|s_axi_CTRL_BRESP      |  out|    2|       s_axi|                    CTRL|        scalar|
+|ap_clk                |   in|    1|  ap_ctrl_hs|    calculate_statistics|  return value|
+|ap_rst_n              |   in|    1|  ap_ctrl_hs|    calculate_statistics|  return value|
+|interrupt             |  out|    1|  ap_ctrl_hs|    calculate_statistics|  return value|
+|input_stream_TDATA    |   in|   32|        axis|   input_stream_V_data_V|       pointer|
+|input_stream_TVALID   |   in|    1|        axis|   input_stream_V_last_V|       pointer|
+|input_stream_TREADY   |  out|    1|        axis|   input_stream_V_last_V|       pointer|
+|input_stream_TLAST    |   in|    1|        axis|   input_stream_V_last_V|       pointer|
+|input_stream_TKEEP    |   in|    4|        axis|   input_stream_V_keep_V|       pointer|
+|input_stream_TSTRB    |   in|    4|        axis|   input_stream_V_strb_V|       pointer|
+|output_stream_TDATA   |  out|   32|        axis|  output_stream_V_data_V|       pointer|
+|output_stream_TVALID  |  out|    1|        axis|  output_stream_V_last_V|       pointer|
+|output_stream_TREADY  |   in|    1|        axis|  output_stream_V_last_V|       pointer|
+|output_stream_TLAST   |  out|    1|        axis|  output_stream_V_last_V|       pointer|
+|output_stream_TKEEP   |  out|    4|        axis|  output_stream_V_keep_V|       pointer|
+|output_stream_TSTRB   |  out|    4|        axis|  output_stream_V_strb_V|       pointer|
++----------------------+-----+-----+------------+------------------------+--------------+
+

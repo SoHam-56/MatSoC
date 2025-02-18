@@ -1,0 +1,206 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/DataTypes.h' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/DataTypes.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=complex_mag_stream' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.34 seconds. CPU system time: 0.2 seconds. Elapsed time: 2.39 seconds; current allocated memory: 212.016 MB.
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 67.77 seconds. CPU system time: 5.68 seconds. Elapsed time: 74.4 seconds; current allocated memory: 225.379 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 31,458 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,533 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,131 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,107 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 605 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 587 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 587 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 587 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 587 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 590 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 590 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 590 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 626 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 639 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 640 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 633 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_isnan<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::data() const (.62.72.82.100)' into 'fp_struct<float>::to_float() const (.59.69.79.97)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:322:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_float() const (.59.69.79.97)' into 'fp_struct<float>::to_ieee() const' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:346:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_isinf<float>(float)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_isinf.h:16:0)
+INFO: [HLS 214-178] Inlining function 'void pow_reduce::log_range_reduce<ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, 4, 39, 41>(ap_ufixed<39, -(4), (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<41, -(((4) + (4)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'ap_ufixed<39, -17, (ap_q_mode)5, (ap_o_mode)3, 0> pow_reduce::pow_traits<float>::log_range_reduction<39>(ap_ufixed<39, -4, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:130:0)
+INFO: [HLS 214-178] Inlining function 'void pow_reduce::log_range_reduce<ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 7, 6, 41, 44>(ap_ufixed<41, -(7), (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<44, -(((7) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'ap_ufixed<39, -17, (ap_q_mode)5, (ap_o_mode)3, 0> pow_reduce::pow_traits<float>::log_range_reduction<39>(ap_ufixed<39, -4, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:130:0)
+INFO: [HLS 214-178] Inlining function 'void pow_reduce::log_range_reduce<ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>, 12, 6, 44, 39>(ap_ufixed<44, -(12), (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<39, -(((12) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'ap_ufixed<39, -17, (ap_q_mode)5, (ap_o_mode)3, 0> pow_reduce::pow_traits<float>::log_range_reduction<39>(ap_ufixed<39, -4, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:130:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isnan<float>(float)' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'int generic_isinf<float>(float)' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'ap_ufixed<39, -17, (ap_q_mode)5, (ap_o_mode)3, 0> pow_reduce::pow_traits<float>::log_range_reduction<39>(ap_ufixed<39, -4, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<65, 9, (ap_q_mode)5, (ap_o_mode)3, 0>&)' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'pow_reduce::pow_traits<float>::exp_Z1P_m_1(ap_ufixed<18, -9, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'float pow_reduce::pown_generic<float>(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:754:0)
+INFO: [HLS 214-178] Inlining function 'hls::pown(float, int)' into 'hls::pownf(float, int)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/pownfloat.cpp:10:0)
+INFO: [HLS 214-178] Inlining function 'hls::pownf(float, int)' into 'complex_mag_stream(int, hls::stream<blk, 0>&, hls::stream<blk, 0>&, hls::stream<blk, 0>&)' (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:99:0)
+INFO: [HLS 214-178] Inlining function 'hls::sqrtf(float)' into 'complex_mag_stream(int, hls::stream<blk, 0>&, hls::stream<blk, 0>&, hls::stream<blk, 0>&)' (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:99:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_133_3> at /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:133:25 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_120_2> at /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:120:23 
+INFO: [HLS 214-421] Automatically partitioning small array 'id_blk' completely based on array size. (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:112:9)
+INFO: [HLS 214-421] Automatically partitioning small array 'iq_blk' completely based on array size. (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:113:9)
+INFO: [HLS 214-421] Automatically partitioning small array 'out_blk' completely based on array size. (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:114:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'id_blk' due to pipeline pragma (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:112:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'iq_blk' due to pipeline pragma (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:113:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'out_blk' due to pipeline pragma (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:114:9)
+INFO: [HLS 214-248] Applying array_partition to 'id_blk': Complete partitioning on dimension 1. (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:112:9)
+INFO: [HLS 214-248] Applying array_partition to 'iq_blk': Complete partitioning on dimension 1. (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:113:9)
+INFO: [HLS 214-248] Applying array_partition to 'out_blk': Complete partitioning on dimension 1. (/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp:114:9)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3.56 seconds. CPU system time: 0.59 seconds. Elapsed time: 8.55 seconds; current allocated memory: 226.930 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 226.930 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 230.273 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 233.520 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:753:20) to (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:1039:3) in function 'pow_reduce::pown_generic<float>'... converting 9 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'pow_reduce::pown_generic<float>' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_pow.h:753)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 257.938 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 280.145 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'complex_mag_stream' ...
+WARNING: [SYN 201-103] Legalizing function name 'pown_generic<float>' to 'pown_generic_float_s'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pown_generic_float_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln941) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining function 'pown_generic<float>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 28, function 'pown_generic<float>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.13 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.16 seconds; current allocated memory: 281.121 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 281.121 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'complex_mag_stream_Pipeline_VITIS_LOOP_120_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_120_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 50, loop 'VITIS_LOOP_120_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 281.121 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 281.121 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'complex_mag_stream_Pipeline_VITIS_LOOP_133_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_133_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_133_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 281.816 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 281.816 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'complex_mag_stream' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 282.504 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 282.504 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pown_generic_float_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_pow_0_5_64_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_4_16_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_6_64_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12_6_64_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arg8j' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'pown_generic_float_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_array_ROM_AUTO_1R' to 'pown_generic_float_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arrahbi' due to the length limit 80
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_13s_12ns_16s_25_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_36s_36_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_18ns_18ns_36_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_23ns_23ns_45_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_25ns_6ns_31_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_39ns_4ns_43_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_41ns_6ns_47_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_44ns_6ns_50_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9s_45ns_52_5_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_11_4_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pown_generic_float_s'.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arg8j' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'complex_mag_stream_pown_generic_float_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arrahbi' using auto ROMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 284.090 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'complex_mag_stream_Pipeline_VITIS_LOOP_120_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'complex_mag_stream_Pipeline_VITIS_LOOP_120_2' pipeline 'VITIS_LOOP_120_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fsqrt_32ns_32ns_32_16_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'complex_mag_stream_Pipeline_VITIS_LOOP_120_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.16 seconds; current allocated memory: 288.934 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'complex_mag_stream_Pipeline_VITIS_LOOP_133_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'complex_mag_stream_Pipeline_VITIS_LOOP_133_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 290.297 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'complex_mag_stream' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'complex_mag_stream/n' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'complex_mag_stream/input_stream_id' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'complex_mag_stream/input_stream_iq' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'complex_mag_stream/output_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'complex_mag_stream' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'n' and 'return' to AXI-Lite port CTRL.
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_34ns_65_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'srem_32ns_3ns_3_36_seq_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'complex_mag_stream'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 292.250 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.18 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.21 seconds; current allocated memory: 295.906 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.53 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.58 seconds; current allocated memory: 305.309 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for complex_mag_stream.
+INFO: [VLOG 209-307] Generating Verilog RTL for complex_mag_stream.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 137.31 MHz
+INFO: [HLS 200-112] Total CPU user time: 75.3 seconds. Total CPU system time: 6.66 seconds. Total elapsed time: 87.19 seconds; peak allocated memory: 305.488 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 30s

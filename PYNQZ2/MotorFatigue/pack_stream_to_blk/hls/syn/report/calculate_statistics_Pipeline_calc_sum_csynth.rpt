@@ -1,0 +1,171 @@
+
+
+================================================================
+== Vitis HLS Report for 'calculate_statistics_Pipeline_calc_sum'
+================================================================
+* Date:           Tue Feb 18 03:51:28 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        pack_stream_to_blk
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.256 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+----------+-----+-----+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute)  |  Interval |                    Pipeline                    |
+    |   min   |   max   |    min    |    max   | min | max |                      Type                      |
+    +---------+---------+-----------+----------+-----+-----+------------------------------------------------+
+    |        9|        ?|  90.000 ns|         ?|    8|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+-----------+----------+-----+-----+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +------------+---------+---------+----------+-----------+-----------+-------+----------+
+        |            |  Latency (cycles) | Iteration|  Initiation Interval  |  Trip |          |
+        |  Loop Name |   min   |   max   |  Latency |  achieved |   target  | Count | Pipelined|
+        +------------+---------+---------+----------+-----------+-----------+-------+----------+
+        |- calc_sum  |        7|        ?|         8|          6|          1|  1 ~ ?|       yes|
+        +------------+---------+---------+----------+-----------+-----------+-------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     78|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       0|     20|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|    100|    -|
+|Register         |        -|    -|     168|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     168|    198|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------------------+----------------------+---------+----+---+----+-----+
+    |         Instance         |        Module        | BRAM_18K| DSP| FF| LUT| URAM|
+    +--------------------------+----------------------+---------+----+---+----+-----+
+    |sparsemux_9_2_32_1_1_U11  |sparsemux_9_2_32_1_1  |        0|   0|  0|  20|    0|
+    +--------------------------+----------------------+---------+----+---+----+-----+
+    |Total                     |                      |        0|   0|  0|  20|    0|
+    +--------------------------+----------------------+---------+----+---+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------+----------+----+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+----+---+----+------------+------------+
+    |add_ln96_fu_176_p2   |         +|   0|  0|  38|          31|           1|
+    |icmp_ln96_fu_152_p2  |      icmp|   0|  0|  38|          31|          31|
+    |ap_enable_pp0        |       xor|   0|  0|   2|           1|           2|
+    +---------------------+----------+----+---+----+------------+------------+
+    |Total                |          |   0|  0|  78|          63|          34|
+    +---------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------------+----+-----------+-----+-----------+
+    |             Name            | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                    |  37|          7|    1|          7|
+    |ap_done_int                  |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter0      |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter0_reg  |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1      |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i           |   9|          2|   31|         62|
+    |i_1_fu_66                    |   9|          2|   31|         62|
+    |sum_fu_62                    |   9|          2|   32|         64|
+    +-----------------------------+----+-----------+-----+-----------+
+    |Total                        | 100|         21|   99|        203|
+    +-----------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------------------------+----+----+-----+-----------+
+    |             Name            | FF | LUT| Bits| Const Bits|
+    +-----------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                    |   6|   0|    6|          0|
+    |ap_done_reg                  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter0_reg  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1      |   1|   0|    1|          0|
+    |i_1_fu_66                    |  31|   0|   31|          0|
+    |i_reg_240                    |  31|   0|   31|          0|
+    |icmp_ln96_reg_246            |   1|   0|    1|          0|
+    |sum_1_reg_280                |  32|   0|   32|          0|
+    |sum_fu_62                    |  32|   0|   32|          0|
+    |tmp_reg_270                  |  32|   0|   32|          0|
+    +-----------------------------+----+----+-----+-----------+
+    |Total                        | 168|   0|  168|          0|
+    +-----------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+------------+----------------------------------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  |              Source Object             |    C Type    |
++---------------------+-----+-----+------------+----------------------------------------+--------------+
+|ap_clk               |   in|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|ap_rst               |   in|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|ap_start             |   in|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|ap_done              |  out|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|ap_idle              |  out|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|ap_ready             |  out|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|grp_fu_376_p_din0    |  out|   32|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|grp_fu_376_p_din1    |  out|   32|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|grp_fu_376_p_opcode  |  out|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|grp_fu_376_p_dout0   |   in|   32|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|grp_fu_376_p_ce      |  out|    1|  ap_ctrl_hs|  calculate_statistics_Pipeline_calc_sum|  return value|
+|empty                |   in|   31|     ap_none|                                   empty|        scalar|
+|data_address0        |  out|    8|   ap_memory|                                    data|         array|
+|data_ce0             |  out|    1|   ap_memory|                                    data|         array|
+|data_q0              |   in|   32|   ap_memory|                                    data|         array|
+|data_1_address0      |  out|    8|   ap_memory|                                  data_1|         array|
+|data_1_ce0           |  out|    1|   ap_memory|                                  data_1|         array|
+|data_1_q0            |   in|   32|   ap_memory|                                  data_1|         array|
+|data_2_address0      |  out|    8|   ap_memory|                                  data_2|         array|
+|data_2_ce0           |  out|    1|   ap_memory|                                  data_2|         array|
+|data_2_q0            |   in|   32|   ap_memory|                                  data_2|         array|
+|data_3_address0      |  out|    8|   ap_memory|                                  data_3|         array|
+|data_3_ce0           |  out|    1|   ap_memory|                                  data_3|         array|
+|data_3_q0            |   in|   32|   ap_memory|                                  data_3|         array|
+|sum_out              |  out|   32|      ap_vld|                                 sum_out|       pointer|
+|sum_out_ap_vld       |  out|    1|      ap_vld|                                 sum_out|       pointer|
++---------------------+-----+-----+------------+----------------------------------------+--------------+
+

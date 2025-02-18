@@ -1,0 +1,3 @@
+26 errors generated.
+Error while processing /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp.
+clang-tidy applied 142 of 142 suggested fixes.

@@ -1,0 +1,140 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/DataTypes.h' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/DataTypes.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=zero_cross' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2.41 seconds. CPU system time: 0.21 seconds. Elapsed time: 2.44 seconds; current allocated memory: 212.008 MB.
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 63.66 seconds. CPU system time: 5.43 seconds. Elapsed time: 69.8 seconds; current allocated memory: 225.418 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 2,915 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 380 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 217 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 221 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 194 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 170 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 162 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 267 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 267 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 260 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 217 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 214 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 197 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 193 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::__signbit() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' into 'int generic_cast_IEEE754<int, float>(float, bool)' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_case_IEEE754.h:116:0)
+INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, float>(float, bool)' into '__hls_fptosi_float_i32' (/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/lib_floatconversion.cpp:51:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i32' into 'zero_cross(int, float, hls::stream<blk, 0>&, hls::stream<hls::axis<ap_int<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:3:0)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_49_2> at /home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:49:22 
+INFO: [HLS 214-421] Automatically partitioning small array 'temp_blk' completely based on array size. (/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:21:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'temp_blk' due to pipeline pragma (/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:21:9)
+INFO: [HLS 214-248] Applying array_partition to 'temp_blk': Complete partitioning on dimension 1. (/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:21:9)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.75 seconds. CPU system time: 0.48 seconds. Elapsed time: 7.74 seconds; current allocated memory: 226.598 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 226.598 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 228.195 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 229.512 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 252.707 MB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_20_1' (/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:20:20) in function 'zero_cross' the outer loop is not a perfect loop because there is nontrivial logic before entering the inner loop.
+Resolution: For help on HLS 200-960 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-960.html
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 254.473 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'zero_cross' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'zero_cross_Pipeline_VITIS_LOOP_49_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_49_2'.
+WARNING: [HLS 200-878] Unable to schedule the loop exit test ('icmp' operation 1 bit ('icmp_ln57', /home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:57)) in the first pipeline iteration (II = 1 cycles).
+Resolution: For help on HLS 200-878 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-878.html
+WARNING: [HLS 200-878] Unable to schedule the loop exit test ('icmp' operation 1 bit ('icmp_ln57', /home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:57)) in the first pipeline iteration (II = 2 cycles).
+Resolution: For help on HLS 200-878 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-878.html
+WARNING: [HLS 200-878] Unable to schedule the loop exit test ('icmp' operation 1 bit ('icmp_ln57', /home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:57)) in the first pipeline iteration (II = 3 cycles).
+Resolution: For help on HLS 200-878 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-878.html
+WARNING: [HLS 200-878] Unable to schedule the loop exit test ('icmp' operation 1 bit ('icmp_ln57', /home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:57)) in the first pipeline iteration (II = 4 cycles).
+Resolution: For help on HLS 200-878 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-878.html
+WARNING: [HLS 200-878] Unable to schedule the loop exit test ('icmp' operation 1 bit ('icmp_ln57', /home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp:57)) in the first pipeline iteration (II = 7 cycles).
+Resolution: For help on HLS 200-878 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-878.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 8, Depth = 8, loop 'VITIS_LOOP_49_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.08 seconds; current allocated memory: 256.012 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 256.012 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'zero_cross' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 256.062 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 256.062 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'zero_cross_Pipeline_VITIS_LOOP_49_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'zero_cross_Pipeline_VITIS_LOOP_49_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 256.062 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'zero_cross' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/n' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/Tms' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/blk_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/segment_length_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/segment_length_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/segment_length_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'zero_cross/segment_length_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'zero_cross' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'n', 'Tms' and 'return' to AXI-Lite port CTRL.
+INFO: [RTGEN 206-100] Generating core module 'fcmp_32ns_32ns_1_2_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_16_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_34ns_65_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'srem_32ns_3ns_3_36_seq_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'zero_cross'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 258.074 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.19 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.22 seconds; current allocated memory: 263.555 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.42 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.47 seconds; current allocated memory: 272.094 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for zero_cross.
+INFO: [VLOG 209-307] Generating Verilog RTL for zero_cross.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 144.68 MHz
+INFO: [HLS 200-112] Total CPU user time: 69.86 seconds. Total CPU system time: 6.24 seconds. Total elapsed time: 81.16 seconds; peak allocated memory: 272.094 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 24s

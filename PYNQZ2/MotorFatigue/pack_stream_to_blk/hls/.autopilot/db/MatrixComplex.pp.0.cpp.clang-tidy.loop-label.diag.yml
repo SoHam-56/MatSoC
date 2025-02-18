@@ -1,0 +1,1412 @@
+---
+MainSourceFile:  /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          280659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          281125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          281592
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          565230
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hotbm_apfixed.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1329460
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1330279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1332931
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1335659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1338820
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1338901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1341210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1342709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1342939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1349131
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cordic_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1350734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1358596
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1358746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1358843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1360708
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1360858
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1360955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1361336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1361567
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1365014
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1365166
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1365266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1365648
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1365886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1381441
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1381593
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1381692
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1381869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1381967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1382252
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1382507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1414746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1414898
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1414998
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1417674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1417824
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1417922
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1421392
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1421543
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1421642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1422122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1422364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1427936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1428088
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1428187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1428696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1428945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1446302
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1446454
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1446554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1447028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1447295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1485866
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1486018
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1486118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1488738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1488901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1488993
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1490602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1490764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1490856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1491229
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1493695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1493862
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1493955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1494336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1499777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1499945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1500039
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1500210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1500301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1500583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1500770
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1535240
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1535408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1535502
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1537304
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1537412
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1537483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1537771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1538985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1539096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1539169
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1539464
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1542797
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1542908
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1542981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1543277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1562589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1562703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1562778
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1563065
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1588675
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1588789
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_exp_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1588866
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_log_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1622953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_log_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1631342
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_log_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1650320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1665199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_sqrt_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1665720
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1681676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1682831
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1683140
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1683650
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1685574
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1685939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1686247
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1688080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_pow_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1688405
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_diff_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1691081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_diff_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1693988
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_diff_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1695280
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1706257
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1706432
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1706593
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1706755
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1706929
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1707104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1707265
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_all_any_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1707427
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_mad_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1779160
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_cbrt_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1780918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1785463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1786199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        /home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/etc/hls_hypot_apfixed.h
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1787889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_20_1:  '
+    FileOffset:      20
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1842023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_20_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_2:  '
+    FileOffset:      22
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1842070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_3:  '
+    FileOffset:      27
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1842159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_4:  '
+    FileOffset:      31
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1842225
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_5:  '
+    FileOffset:      32
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1842263
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_67_1:  '
+    FileOffset:      67
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1843305
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_67_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_70_2:  '
+    FileOffset:      70
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1843353
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_70_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_75_3:  '
+    FileOffset:      75
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1843442
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_75_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_4:  '
+    FileOffset:      79
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1843508
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_5:  '
+    FileOffset:      80
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1843546
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_1:  '
+    FileOffset:      110
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1844376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_120_2:  '
+    FileOffset:      120
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1844628
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_120_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_133_3:  '
+    FileOffset:      133
+    FilePath:        /home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp
+    Replacements:    
+      - FilePath:        /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/pack_stream_to_blk/hls/.autopilot/db/MatrixComplex.pp.0.cpp
+        Offset:          1844932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_133_3: '
+...

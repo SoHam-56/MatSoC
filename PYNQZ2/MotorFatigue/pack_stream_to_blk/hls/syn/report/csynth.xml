@@ -1,0 +1,1416 @@
+<profile>
+    <ReportVersion>
+        <Version>2024.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynq</ProductFamily>
+        <Part>xc7z020-clg400-1</Part>
+        <TopModelName>calculate_statistics</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>7.386</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>undef</Best-caseLatency>
+            <Average-caseLatency>undef</Average-caseLatency>
+            <Worst-caseLatency>undef</Worst-caseLatency>
+            <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+            <Interval-min>undef</Interval-min>
+            <Interval-max>undef</Interval-max>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:73</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>4</BRAM_18K>
+            <DSP>5</DSP>
+            <FF>2688</FF>
+            <LUT>4099</LUT>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>280</BRAM_18K>
+            <DSP>220</DSP>
+            <FF>106400</FF>
+            <LUT>53200</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>s_axi_CTRL_AWVALID</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_AWREADY</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_AWADDR</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>5</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_WVALID</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_WREADY</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_WDATA</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_WSTRB</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_ARVALID</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_ARREADY</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_ARADDR</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>5</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_RVALID</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_RREADY</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_RDATA</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_RRESP</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_BVALID</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_BREADY</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_CTRL_BRESP</name>
+            <Object>CTRL</Object>
+            <Type>scalar</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>calculate_statistics</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>calculate_statistics</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>interrupt</name>
+            <Object>calculate_statistics</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>input_stream_TDATA</name>
+            <Object>input_stream_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>input_stream_TVALID</name>
+            <Object>input_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>input_stream_TREADY</name>
+            <Object>input_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>input_stream_TLAST</name>
+            <Object>input_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>input_stream_TKEEP</name>
+            <Object>input_stream_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>input_stream_TSTRB</name>
+            <Object>input_stream_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>output_stream_TDATA</name>
+            <Object>output_stream_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>output_stream_TVALID</name>
+            <Object>output_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>output_stream_TREADY</name>
+            <Object>output_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>output_stream_TLAST</name>
+            <Object>output_stream_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>output_stream_TKEEP</name>
+            <Object>output_stream_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>4</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>output_stream_TSTRB</name>
+            <Object>output_stream_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>4</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="3">
+            <ModuleName>calculate_statistics</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_read_data_fu_280</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_read_data</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>280</ID>
+                    <BindInstances>icmp_ln86_fu_154_p2 add_ln86_fu_160_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_calc_sum_fu_297</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_calc_sum</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>297</ID>
+                    <BindInstances>icmp_ln96_fu_152_p2 add_ln96_fu_176_p2 sparsemux_9_2_32_1_1_U11</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_calc_std_fu_307</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_calc_std</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>307</ID>
+                    <BindInstances>icmp_ln105_fu_164_p2 add_ln105_fu_188_p2 sparsemux_9_2_32_1_1_U21</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_find_minmax_fu_318</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_find_minmax</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>318</ID>
+                    <BindInstances>icmp_ln116_fu_184_p2 sparsemux_9_2_32_1_1_U30 icmp_ln247_fu_287_p2 icmp_ln247_1_fu_293_p2 or_ln247_fu_299_p2 icmp_ln247_2_fu_305_p2 icmp_ln247_3_fu_311_p2 or_ln247_1_fu_317_p2 fcmp_32ns_32ns_1_2_no_dsp_1_U29 and_ln247_fu_323_p2 and_ln247_1_fu_329_p2 min_val_fu_335_p3 icmp_ln241_fu_358_p2 icmp_ln241_1_fu_364_p2 or_ln241_fu_370_p2 fcmp_32ns_32ns_1_2_no_dsp_1_U29 and_ln241_fu_376_p2 and_ln241_1_fu_381_p2 max_val_fu_387_p3 add_ln116_fu_235_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_calc_rms_fu_330</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_calc_rms</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>330</ID>
+                    <BindInstances>icmp_ln125_fu_154_p2 add_ln125_fu_178_p2 sparsemux_9_2_32_1_1_U42</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_calc_abs_mean_fu_340</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_calc_abs_mean</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>340</ID>
+                    <BindInstances>icmp_ln134_fu_150_p2 add_ln134_fu_174_p2 sparsemux_9_2_32_1_1_U50</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_calc_moments_fu_350</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_calc_moments</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>350</ID>
+                    <BindInstances>icmp_ln144_fu_198_p2 add_ln144_fu_222_p2 sparsemux_9_2_32_1_1_U60</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>grp_calculate_statistics_Pipeline_write_results_fu_363</InstName>
+                    <ModuleName>calculate_statistics_Pipeline_write_results</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>363</ID>
+                    <BindInstances>icmp_ln176_fu_97_p2 add_ln176_fu_103_p2 out_pkt_last_fu_114_p2</BindInstances>
+                </Instance>
+            </InstancesList>
+            <BindInstances>data_U fmul_32ns_32ns_32_4_max_dsp_1_U76 faddfsub_32ns_32ns_32_5_full_dsp_1_U75 faddfsub_32ns_32ns_32_5_full_dsp_1_U75 fmul_32ns_32ns_32_4_max_dsp_1_U76 faddfsub_32ns_32ns_32_5_full_dsp_1_U75 sitofp_32ns_32_6_no_dsp_1_U80 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fsqrt_32ns_32ns_32_16_no_dsp_1_U81 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fsqrt_32ns_32ns_32_16_no_dsp_1_U81 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fdiv_32ns_32ns_32_16_no_dsp_1_U78 faddfsub_32ns_32ns_32_5_full_dsp_1_U75 faddfsub_32ns_32ns_32_5_full_dsp_1_U75 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fdiv_32ns_32ns_32_16_no_dsp_1_U77 fdiv_32ns_32ns_32_16_no_dsp_1_U79 fmul_32ns_32ns_32_4_max_dsp_1_U76 fdiv_32ns_32ns_32_16_no_dsp_1_U78 CTRL_s_axi_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>calculate_statistics_Pipeline_read_data</Name>
+            <Loops>
+                <read_data/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>5.698</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>3</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2 ~ 0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <read_data>
+                        <Name>read_data</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>1 ~ ?</Latency>
+                        <AbsoluteTimeLatency>10.000 ns ~ ?</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </read_data>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:86</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <read_data>
+                            <Name>read_data</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:86</SourceLocation>
+                        </read_data>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>44</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>125</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="read_data" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln86_fu_154_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:86" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln86" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_data" OPTYPE="add" PRAGMA="" RTLNAME="add_ln86_fu_160_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:86" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln86" VISIBLE="true"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_calc_sum</Name>
+            <Loops>
+                <calc_sum/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.256</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>9</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>90.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>8 ~ 0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <calc_sum>
+                        <Name>calc_sum</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>7 ~ ?</Latency>
+                        <AbsoluteTimeLatency>70.000 ns ~ ?</AbsoluteTimeLatency>
+                        <PipelineII>6</PipelineII>
+                        <PipelineDepth>8</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </calc_sum>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:94</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <calc_sum>
+                            <Name>calc_sum</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:96</SourceLocation>
+                        </calc_sum>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>168</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>198</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="calc_sum" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln96_fu_152_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln96" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="calc_sum" OPTYPE="add" PRAGMA="" RTLNAME="add_ln96_fu_176_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:96" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln96" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="calc_sum" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_2_32_1_1_U11" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:98" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_calc_std</Name>
+            <Loops>
+                <calc_std/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.256</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <calc_std>
+                        <Name>calc_std</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>6</PipelineII>
+                        <PipelineDepth>17</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </calc_std>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:103</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <calc_std>
+                            <Name>calc_std</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:105</SourceLocation>
+                        </calc_std>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>235</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>250</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="calc_std" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln105_fu_164_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:105" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln105" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="calc_std" OPTYPE="add" PRAGMA="" RTLNAME="add_ln105_fu_188_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:105" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln105" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="calc_std" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_2_32_1_1_U21" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:107" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_find_minmax</Name>
+            <Loops>
+                <find_minmax/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.409</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <find_minmax>
+                        <Name>find_minmax</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>2</PipelineII>
+                        <PipelineDepth>6</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </find_minmax>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:240~/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:119</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <find_minmax>
+                            <Name>find_minmax</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:116</SourceLocation>
+                        </find_minmax>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>328</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>435</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln116_fu_184_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:116" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln116" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="find_minmax" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_2_32_1_1_U30" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:118" STORAGESUBTYPE="" URAM="0" VARIABLE="y_assign" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln247_fu_287_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln247" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln247_1_fu_293_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln247_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="or" PRAGMA="" RTLNAME="or_ln247_fu_299_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln247" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln247_2_fu_305_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln247_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln247_3_fu_311_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln247_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="or" PRAGMA="" RTLNAME="or_ln247_1_fu_317_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln247_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fcmp" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="find_minmax" OPTYPE="fcmp" PRAGMA="" RTLNAME="fcmp_32ns_32ns_1_2_no_dsp_1_U29" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="and" PRAGMA="" RTLNAME="and_ln247_fu_323_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln247" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="and" PRAGMA="" RTLNAME="and_ln247_1_fu_329_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln247_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="find_minmax" OPTYPE="select" PRAGMA="" RTLNAME="min_val_fu_335_p3" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:247" STORAGESUBTYPE="" URAM="0" VARIABLE="min_val" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln241_fu_358_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln241" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln241_1_fu_364_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln241_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="or" PRAGMA="" RTLNAME="or_ln241_fu_370_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln241" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fcmp" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="find_minmax" OPTYPE="fcmp" PRAGMA="" RTLNAME="fcmp_32ns_32ns_1_2_no_dsp_1_U29" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="and" PRAGMA="" RTLNAME="and_ln241_fu_376_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln241" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="find_minmax" OPTYPE="and" PRAGMA="" RTLNAME="and_ln241_1_fu_381_p2" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln241_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="find_minmax" OPTYPE="select" PRAGMA="" RTLNAME="max_val_fu_387_p3" SOURCE="/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot/hls_math.h:241" STORAGESUBTYPE="" URAM="0" VARIABLE="max_val" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="find_minmax" OPTYPE="add" PRAGMA="" RTLNAME="add_ln116_fu_235_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:116" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln116" VISIBLE="true"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_calc_rms</Name>
+            <Loops>
+                <calc_rms/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.256</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <calc_rms>
+                        <Name>calc_rms</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>6</PipelineII>
+                        <PipelineDepth>12</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </calc_rms>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:123</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <calc_rms>
+                            <Name>calc_rms</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:125</SourceLocation>
+                        </calc_rms>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>200</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>190</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="calc_rms" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln125_fu_154_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:125" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln125" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="calc_rms" OPTYPE="add" PRAGMA="" RTLNAME="add_ln125_fu_178_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:125" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln125" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="calc_rms" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_2_32_1_1_U42" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:127" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_calc_abs_mean</Name>
+            <Loops>
+                <calc_abs_mean/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.256</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <calc_abs_mean>
+                        <Name>calc_abs_mean</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>6</PipelineII>
+                        <PipelineDepth>8</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </calc_abs_mean>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <calc_abs_mean>
+                            <Name>calc_abs_mean</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134</SourceLocation>
+                        </calc_abs_mean>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>167</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>199</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="calc_abs_mean" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln134_fu_150_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln134" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="calc_abs_mean" OPTYPE="add" PRAGMA="" RTLNAME="add_ln134_fu_174_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln134" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="calc_abs_mean" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_2_32_1_1_U50" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136" STORAGESUBTYPE="" URAM="0" VARIABLE="dc" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_calc_moments</Name>
+            <Loops>
+                <calc_moments/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.256</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>0</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <calc_moments>
+                        <Name>calc_moments</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>6</PipelineII>
+                        <PipelineDepth>41</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </calc_moments>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:141</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <calc_moments>
+                            <Name>calc_moments</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:144</SourceLocation>
+                        </calc_moments>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>466</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>373</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="calc_moments" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln144_fu_198_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln144" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="calc_moments" OPTYPE="add" PRAGMA="" RTLNAME="add_ln144_fu_222_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln144" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="calc_moments" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_2_32_1_1_U60" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics_Pipeline_write_results</Name>
+            <Loops>
+                <write_results/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>4.911</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>13</Best-caseLatency>
+                    <Average-caseLatency>13</Average-caseLatency>
+                    <Worst-caseLatency>13</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.130 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.130 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.130 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>12</PipelineInitiationInterval>
+                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <write_results>
+                        <Name>write_results</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>11</TripCount>
+                        <Latency>11</Latency>
+                        <AbsoluteTimeLatency>0.110 us</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <InstanceList/>
+                    </write_results>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:176</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <write_results>
+                            <Name>write_results</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:176</SourceLocation>
+                        </write_results>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>8</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>88</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_results" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln176_fu_97_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:176" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln176" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_results" OPTYPE="add" PRAGMA="" RTLNAME="add_ln176_fu_103_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:176" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln176" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_results" OPTYPE="seteq" PRAGMA="" RTLNAME="out_pkt_last_fu_114_p2" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:180" STORAGESUBTYPE="" URAM="0" VARIABLE="out_pkt_last" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>calculate_statistics</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.386</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:73</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>4</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>1</UTIL_BRAM>
+                    <DSP>5</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>2</UTIL_DSP>
+                    <FF>2688</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>4099</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>7</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="data_U" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:79" STORAGESIZE="32 256 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="data" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="2" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U76" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:79" STORAGESIZE="32 256 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="data_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="2" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U75" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:79" STORAGESIZE="32 256 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="data_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="2" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U75" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:79" STORAGESIZE="32 256 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="data_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage ram_t2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_t2p" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U76" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:160" STORAGESIZE="32 11 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_t2p array" URAM="0" VARIABLE="results" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U75" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:86" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln86" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sitofp" DSP="0" ID="" IMPL="auto" LATENCY="5" LOOP="" OPTYPE="sitofp" PRAGMA="" RTLNAME="sitofp_32ns_32_6_no_dsp_1_U80" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:100" STORAGESUBTYPE="" URAM="0" VARIABLE="conv" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:100" STORAGESUBTYPE="" URAM="0" VARIABLE="mean_val" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:110" STORAGESUBTYPE="" URAM="0" VARIABLE="x_assign" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsqrt" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fsqrt" PRAGMA="" RTLNAME="fsqrt_32ns_32ns_32_16_no_dsp_1_U81" SOURCE="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/sqrtfloat.cpp:8" STORAGESUBTYPE="" URAM="0" VARIABLE="std_dev" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:129" STORAGESUBTYPE="" URAM="0" VARIABLE="x_assign_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsqrt" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fsqrt" PRAGMA="" RTLNAME="fsqrt_32ns_32ns_32_16_no_dsp_1_U81" SOURCE="/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/sqrtfloat.cpp:8" STORAGESUBTYPE="" URAM="0" VARIABLE="rms_val" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="mean_abs" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="skewness_val" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U78" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:152" STORAGESUBTYPE="" URAM="0" VARIABLE="div" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsub" DSP="2" ID="" IMPL="fulldsp" LATENCY="4" LOOP="" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U75" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:152" STORAGESUBTYPE="" URAM="0" VARIABLE="kurtosis_val" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsub" DSP="2" ID="" IMPL="fulldsp" LATENCY="4" LOOP="" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U75" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:165" STORAGESUBTYPE="" URAM="0" VARIABLE="sub2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:167" STORAGESUBTYPE="" URAM="0" VARIABLE="div1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U77" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:168" STORAGESUBTYPE="" URAM="0" VARIABLE="div2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U79" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:169" STORAGESUBTYPE="" URAM="0" VARIABLE="div3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fmul" DSP="3" ID="" IMPL="maxdsp" LATENCY="3" LOOP="" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U76" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:170" STORAGESUBTYPE="" URAM="0" VARIABLE="mul5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fdiv" DSP="0" ID="" IMPL="fabric" LATENCY="15" LOOP="" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U78" SOURCE="/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:170" STORAGESUBTYPE="" URAM="0" VARIABLE="div4" VISIBLE="true"/>
+                <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="CTRL" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="CTRL_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="n" index="0" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_CTRL" name="n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="input_stream" index="1" direction="in" srcType="stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0, 0, 0, '8', false&gt;, 0&gt;&amp;" srcSize="96">
+            <hwRefs>
+                <hwRef type="interface" interface="input_stream" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="output_stream" index="2" direction="out" srcType="stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 0, 0, 0, '8', false&gt;, 0&gt;&amp;" srcSize="96">
+            <hwRefs>
+                <hwRef type="interface" interface="output_stream" name="" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="s_axi_CTRL" type="axi4lite" busTypeName="aximm" mode="slave" dataWidth="32" addrWidth="5" portPrefix="s_axi_CTRL_" paramPrefix="C_S_AXI_CTRL_">
+            <ports>
+                <port>s_axi_CTRL_ARADDR</port>
+                <port>s_axi_CTRL_ARREADY</port>
+                <port>s_axi_CTRL_ARVALID</port>
+                <port>s_axi_CTRL_AWADDR</port>
+                <port>s_axi_CTRL_AWREADY</port>
+                <port>s_axi_CTRL_AWVALID</port>
+                <port>s_axi_CTRL_BREADY</port>
+                <port>s_axi_CTRL_BRESP</port>
+                <port>s_axi_CTRL_BVALID</port>
+                <port>s_axi_CTRL_RDATA</port>
+                <port>s_axi_CTRL_RREADY</port>
+                <port>s_axi_CTRL_RRESP</port>
+                <port>s_axi_CTRL_RVALID</port>
+                <port>s_axi_CTRL_WDATA</port>
+                <port>s_axi_CTRL_WREADY</port>
+                <port>s_axi_CTRL_WSTRB</port>
+                <port>s_axi_CTRL_WVALID</port>
+            </ports>
+            <registers>
+                <register offset="0x00" name="CTRL" access="RW" description="Control signals" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="AP_START" access="RW" description="Control signal Register for 'ap_start'."/>
+                        <field offset="1" width="1" name="AP_DONE" access="R" description="Control signal Register for 'ap_done'."/>
+                        <field offset="2" width="1" name="AP_IDLE" access="R" description="Control signal Register for 'ap_idle'."/>
+                        <field offset="3" width="1" name="AP_READY" access="R" description="Control signal Register for 'ap_ready'."/>
+                        <field offset="4" width="3" name="RESERVED_1" access="R" description="Reserved.  0s on read."/>
+                        <field offset="7" width="1" name="AUTO_RESTART" access="RW" description="Control signal Register for 'auto_restart'."/>
+                        <field offset="8" width="1" name="RESERVED_2" access="R" description="Reserved.  0s on read."/>
+                        <field offset="9" width="1" name="INTERRUPT" access="R" description="Control signal Register for 'interrupt'."/>
+                        <field offset="10" width="22" name="RESERVED_3" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x04" name="GIER" access="RW" description="Global Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="Enable" access="RW" description="Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x08" name="IP_IER" access="RW" description="IP Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_EN" access="RW" description="Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="1" width="1" name="CHAN1_INT_EN" access="RW" description="Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x0c" name="IP_ISR" access="RW" description="IP Interrupt Status Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_ST" access="RTOW" description="Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 interrupt, 1 = Channel 0 interrupt."/>
+                        <field offset="1" width="1" name="CHAN1_INT_ST" access="RTOW" description="Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 interrupt, 1 = Channel 1 interrupt."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x10" name="n" access="W" description="Data signal of n" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="n" access="W" description="Bit 31 to 0 of n"/>
+                    </fields>
+                </register>
+            </registers>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="16" argName="n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">s_axi_CTRL:input_stream:output_stream</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="interrupt" type="interrupt" busTypeName="interrupt" mode="master" dataWidth="1">
+            <busParams>
+                <busParam busParamName="SENSITIVITY">LEVEL_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="interrupt">INTERRUPT</portMap>
+            </portMaps>
+            <ports>
+                <port>interrupt</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="input_stream" type="axi4stream" busTypeName="axis" mode="slave" direction="in" dataWidth="32" portPrefix="input_stream_">
+            <ports>
+                <port>input_stream_TDATA</port>
+                <port>input_stream_TKEEP</port>
+                <port>input_stream_TLAST</port>
+                <port>input_stream_TREADY</port>
+                <port>input_stream_TSTRB</port>
+                <port>input_stream_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="input_stream"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="output_stream" type="axi4stream" busTypeName="axis" mode="master" direction="out" dataWidth="32" portPrefix="output_stream_">
+            <ports>
+                <port>output_stream_TDATA</port>
+                <port>output_stream_TKEEP</port>
+                <port>output_stream_TLAST</port>
+                <port>output_stream_TREADY</port>
+                <port>output_stream_TSTRB</port>
+                <port>output_stream_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="output_stream"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="S_AXILITE Interfaces">
+                <table>
+                    <keys size="5">Interface, Data Width, Address Width, Offset, Register</keys>
+                    <column name="s_axi_CTRL">32, 5, 16, 0</column>
+                </table>
+            </item>
+            <item name="S_AXILITE Registers">
+                <table>
+                    <keys size="7">Interface, Register, Offset, Width, Access, Description, Bit Fields</keys>
+                    <column name="s_axi_CTRL">CTRL, 0x00, 32, RW, Control signals, 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT</column>
+                    <column name="s_axi_CTRL">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
+                    <column name="s_axi_CTRL">IP_IER, 0x08, 32, RW, IP Interrupt Enable Register, 0=CHAN0_INT_EN 1=CHAN1_INT_EN</column>
+                    <column name="s_axi_CTRL">IP_ISR, 0x0c, 32, RW, IP Interrupt Status Register, 0=CHAN0_INT_ST 1=CHAN1_INT_ST</column>
+                    <column name="s_axi_CTRL">n, 0x10, 32, W, Data signal of n, </column>
+                </table>
+            </item>
+            <item name="AXIS">
+                <table>
+                    <keys size="9">Interface, Direction, Register Mode, TDATA, TKEEP, TLAST, TREADY, TSTRB, TVALID</keys>
+                    <column name="input_stream">in, both, 32, 4, 1, 1, 4, 1</column>
+                    <column name="output_stream">out, both, 32, 4, 1, 1, 4, 1</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="interrupt">interrupt, interrupt</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="n">in, int</column>
+                    <column name="input_stream">in, stream&lt;hls::axis&lt;ap_int&lt;32&gt; 0 0 0 '8' false&gt; 0&gt;&amp;</column>
+                    <column name="output_stream">out, stream&lt;hls::axis&lt;ap_int&lt;32&gt; 0 0 0 '8' false&gt; 0&gt;&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
+                    <column name="n">s_axi_CTRL, register, name=n offset=0x10 range=32</column>
+                    <column name="input_stream">input_stream, interface, </column>
+                    <column name="output_stream">output_stream, interface, </column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:4" status="valid" parentFunction="auto_parkcalc" variable="" isDirective="0" options="mode = axis port = A_ROW name = A_ROW"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:5" status="valid" parentFunction="auto_parkcalc" variable="" isDirective="0" options="mode = s_axilite port = size bundle = AXICTRL name = size"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:6" status="valid" parentFunction="auto_parkcalc" variable="" isDirective="0" options="mode = axis port = ID name = ID"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:7" status="valid" parentFunction="auto_parkcalc" variable="" isDirective="0" options="mode = axis port = IQ name = IQ"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:8" status="valid" parentFunction="auto_parkcalc" variable="" isDirective="0" options="mode = s_axilite port = return bundle = AXICTRL"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:50" status="valid" parentFunction="auto_parkcalc_two_streams" variable="" isDirective="0" options="mode = axis port = A_ROW name = A_ROW"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:51" status="valid" parentFunction="auto_parkcalc_two_streams" variable="" isDirective="0" options="mode = s_axilite port = size bundle = AXICTRL name = size"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:52" status="valid" parentFunction="auto_parkcalc_two_streams" variable="" isDirective="0" options="mode = axis port = ID name = ID"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:53" status="valid" parentFunction="auto_parkcalc_two_streams" variable="" isDirective="0" options="mode = axis port = IQ name = IQ"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:54" status="valid" parentFunction="auto_parkcalc_two_streams" variable="" isDirective="0" options="mode = axis port = IQ2 name = IQ2"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:55" status="valid" parentFunction="auto_parkcalc_two_streams" variable="" isDirective="0" options="mode = s_axilite port = return bundle = AXICTRL"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:100" status="valid" parentFunction="complex_mag_stream" variable="" isDirective="0" options="mode = axis port = input_stream_id"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:101" status="valid" parentFunction="complex_mag_stream" variable="" isDirective="0" options="mode = axis port = input_stream_iq"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:102" status="valid" parentFunction="complex_mag_stream" variable="" isDirective="0" options="mode = axis port = output_stream"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:103" status="valid" parentFunction="complex_mag_stream" variable="" isDirective="0" options="mode = s_axilite port = n bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/MatrixComplex.cpp:104" status="valid" parentFunction="complex_mag_stream" variable="" isDirective="0" options="mode = s_axilite port = return bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:5" status="valid" parentFunction="subtract_mean" variable="input_stream" isDirective="0" options="axis port=input_stream"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:6" status="valid" parentFunction="subtract_mean" variable="output_stream" isDirective="0" options="axis port=output_stream"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:7" status="valid" parentFunction="subtract_mean" variable="n" isDirective="0" options="s_axilite port=n bundle=CTRL"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:8" status="valid" parentFunction="subtract_mean" variable="return" isDirective="0" options="s_axilite port=return bundle=CTRL"/>
+        <Pragma type="array_partition" location="../../src/StatsCalc.cpp:12" status="valid" parentFunction="subtract_mean" variable="buffer" isDirective="0" options="variable=buffer cyclic factor=4"/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:26" status="valid" parentFunction="subtract_mean" variable="" isDirective="0" options=""/>
+        <Pragma type="stream" location="../../src/StatsCalc.cpp:40" status="valid" parentFunction="subtract_mean" variable="temp_stream" isDirective="0" options="variable=temp_stream depth=2"/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:48" status="valid" parentFunction="subtract_mean" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:56" status="valid" parentFunction="subtract_mean" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:74" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options="axis port = input_stream"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:75" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options="axis port = output_stream"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:76" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options="s_axilite port = n bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/StatsCalc.cpp:77" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options="s_axilite port = return bundle = CTRL"/>
+        <Pragma type="array_partition" location="../../src/StatsCalc.cpp:80" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options="variable = data cyclic factor = 4"/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:87" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:97" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:106" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:117" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:126" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:135" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:145" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../src/StatsCalc.cpp:177" status="valid" parentFunction="calculate_statistics" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:4" status="valid" parentFunction="pack_stream_to_blk" variable="" isDirective="0" options="axis port = input_stream"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:5" status="valid" parentFunction="pack_stream_to_blk" variable="" isDirective="0" options="axis port = blk_stream"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:6" status="valid" parentFunction="pack_stream_to_blk" variable="" isDirective="0" options="s_axilite port = n bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:7" status="valid" parentFunction="pack_stream_to_blk" variable="" isDirective="0" options="s_axilite port = return bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:37" status="valid" parentFunction="unpack_blk_to_stream" variable="" isDirective="0" options="axis port = blk_stream"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:38" status="valid" parentFunction="unpack_blk_to_stream" variable="" isDirective="0" options="axis port = output_stream"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:39" status="valid" parentFunction="unpack_blk_to_stream" variable="" isDirective="0" options="s_axilite port = n bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/StreamConverters.cpp:40" status="valid" parentFunction="unpack_blk_to_stream" variable="" isDirective="0" options="s_axilite port = return bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/ZeroCross.cpp:4" status="valid" parentFunction="zero_cross" variable="" isDirective="0" options="axis port = blk_stream"/>
+        <Pragma type="interface" location="../../src/ZeroCross.cpp:5" status="valid" parentFunction="zero_cross" variable="" isDirective="0" options="axis port = segment_length_stream"/>
+        <Pragma type="interface" location="../../src/ZeroCross.cpp:6" status="valid" parentFunction="zero_cross" variable="" isDirective="0" options="s_axilite port = n bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/ZeroCross.cpp:7" status="valid" parentFunction="zero_cross" variable="" isDirective="0" options="s_axilite port = Tms bundle = CTRL"/>
+        <Pragma type="interface" location="../../src/ZeroCross.cpp:8" status="valid" parentFunction="zero_cross" variable="" isDirective="0" options="s_axilite port = return bundle = CTRL"/>
+    </PragmaReport>
+</profile>
+

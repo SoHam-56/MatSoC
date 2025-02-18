@@ -1,0 +1,104 @@
+{
+  "0": {
+    "basicblocks": 47,
+    "calls": "2 2 8",
+    "file": "StatsCalc.cpp",
+    "fileloc": 73,
+    "instructions": 274,
+    "loads": {
+      "L": 12
+    },
+    "name": "calculate_statistics",
+    "stores": {
+      "L": 14
+    },
+    "total_instructions": 330
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "5 7",
+    "file": "hls_copysign.h",
+    "fileloc": 10,
+    "instructions": 7,
+    "name": "generic_copysign<float>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 36
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "sqrtfloat.cpp",
+    "fileloc": 6,
+    "instructions": 2,
+    "name": "sqrt",
+    "total_instructions": 2
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "x_hls_utils.h",
+    "fileloc": 322,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "to_float",
+    "total_instructions": 19
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 309,
+    "instructions": 14,
+    "loads": {
+      "L": 4
+    },
+    "name": "data",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 14
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 283,
+    "instructions": 8,
+    "name": "fp_struct",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 8
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "hls_fabs.h",
+    "fileloc": 12,
+    "instructions": 2,
+    "name": "generic_fabs<float>",
+    "total_instructions": 38
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "3",
+    "file": "x_hls_utils.h",
+    "fileloc": 346,
+    "instructions": 2,
+    "name": "to_ieee",
+    "total_instructions": 21
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "6",
+    "file": "absfloat.cpp",
+    "fileloc": 6,
+    "instructions": 2,
+    "name": "abs",
+    "total_instructions": 40
+  }
+}

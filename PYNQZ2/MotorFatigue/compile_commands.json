@@ -1,0 +1,54 @@
+[
+  {
+    "directory": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue",
+    "arguments": [
+      "/home/admin/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/admin/Xilinx/Vivado/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=calculate_statistics",
+      "-c",
+      "/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp"
+    ],
+    "file": "/home/admin/Desktop/SOCExtraFeatures/src/StreamConverters.cpp"
+  },
+  {
+    "directory": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue",
+    "arguments": [
+      "/home/admin/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/admin/Xilinx/Vivado/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=calculate_statistics",
+      "-c",
+      "/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp"
+    ],
+    "file": "/home/admin/Desktop/SOCExtraFeatures/src/ZeroCross.cpp"
+  },
+  {
+    "directory": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue",
+    "arguments": [
+      "/home/admin/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/admin/Xilinx/Vivado/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=calculate_statistics",
+      "-c",
+      "/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp"
+    ],
+    "file": "/home/admin/Desktop/SOCExtraFeatures/src/MatrixComplex.cpp"
+  },
+  {
+    "directory": "/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue",
+    "arguments": [
+      "/home/admin/Xilinx/Vitis/2024.2/vcxx/libexec/clang++",
+      "--gcc-toolchain=/home/admin/Xilinx/Vivado/2024.2/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/admin/Xilinx/Vitis/2024.2/common/technology/autopilot",
+      "-fhlstoplevel=calculate_statistics",
+      "-c",
+      "/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp"
+    ],
+    "file": "/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp"
+  }
+]

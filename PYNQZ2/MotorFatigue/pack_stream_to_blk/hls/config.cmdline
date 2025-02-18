@@ -1,0 +1,3 @@
+relativeroot=/home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue
+original_argv=--mode hls --package --config /home/admin/Desktop/SOCExtraFeatures/PYNQZ2/MotorFatigue/hls_config.cfg --work_dir pack_stream_to_blk 
+

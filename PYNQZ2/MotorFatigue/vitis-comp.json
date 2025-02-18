@@ -1,0 +1,12 @@
+{
+  "name": "MotorFatigue",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "pack_stream_to_blk"
+  },
+  "template": "empty_hls_component"
+}

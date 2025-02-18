@@ -1,9 +1,0 @@
-{
-  "workspaceRoot": "/home/almavitis/VM_share/SOCExtraFeatures/SoC_wsHLS",
-  "mapping": {
-    "/home/almavitis/VM_share/SOCExtraFeatures/src/H_L2_1.csv": "SoC_hls_component",
-    "/home/almavitis/VM_share/SOCExtraFeatures/src/MatCalc.cpp": "SoC_hls_component",
-    "/home/almavitis/VM_share/SOCExtraFeatures/src/tb.cpp": "SoC_hls_component",
-    "/home/almavitis/VM_share/SOCExtraFeatures/src/dimensions.h": "SoC_hls_component"
-  }
-}

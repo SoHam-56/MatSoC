@@ -1,0 +1,256 @@
+
+
+================================================================
+== Synthesis Summary Report of 'calculate_statistics'
+================================================================
++ General Information: 
+    * Date:           Tue Feb 18 03:51:29 2025
+    * Version:        2024.2 (Build 5238294 on Nov  8 2024)
+    * Project:        pack_stream_to_blk
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +------------------------------------------------+--------+-------+---------+---------+----------+---------+------+----------+--------+--------+-----------+-----------+-----+
+    |                     Modules                    |  Issue |       | Latency | Latency | Iteration|         | Trip |          |        |        |           |           |     |
+    |                     & Loops                    |  Type  | Slack | (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined|  BRAM  |   DSP  |     FF    |    LUT    | URAM|
+    +------------------------------------------------+--------+-------+---------+---------+----------+---------+------+----------+--------+--------+-----------+-----------+-----+
+    |+ calculate_statistics                          |  Timing|  -0.09|        -|        -|         -|        -|     -|        no|  4 (1%)|  5 (2%)|  2688 (2%)|  4099 (7%)|    -|
+    | + calculate_statistics_Pipeline_read_data      |       -|   1.60|        -|        -|         -|        -|     -|        no|       -|       -|   44 (~0%)|  125 (~0%)|    -|
+    |  o read_data                                   |       -|   7.30|        -|        -|         2|        1|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_calc_sum       |       -|   0.04|        -|        -|         -|        -|     -|        no|       -|       -|  168 (~0%)|  198 (~0%)|    -|
+    |  o calc_sum                                    |      II|   7.30|        -|        -|         8|        6|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_calc_std       |       -|   0.04|        -|        -|         -|        -|     -|        no|       -|       -|  235 (~0%)|  250 (~0%)|    -|
+    |  o calc_std                                    |      II|   7.30|        -|        -|        17|        6|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_find_minmax    |       -|   0.89|        -|        -|         -|        -|     -|        no|       -|       -|  328 (~0%)|  435 (~0%)|    -|
+    |  o find_minmax                                 |      II|   7.30|        -|        -|         6|        2|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_calc_rms       |       -|   0.04|        -|        -|         -|        -|     -|        no|       -|       -|  200 (~0%)|  190 (~0%)|    -|
+    |  o calc_rms                                    |      II|   7.30|        -|        -|        12|        6|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_calc_abs_mean  |       -|   0.04|        -|        -|         -|        -|     -|        no|       -|       -|  167 (~0%)|  199 (~0%)|    -|
+    |  o calc_abs_mean                               |      II|   7.30|        -|        -|         8|        6|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_calc_moments   |       -|   0.04|        -|        -|         -|        -|     -|        no|       -|       -|  466 (~0%)|  373 (~0%)|    -|
+    |  o calc_moments                                |      II|   7.30|        -|        -|        41|        6|     -|       yes|       -|       -|          -|          -|    -|
+    | + calculate_statistics_Pipeline_write_results  |       -|   2.39|       13|  130.000|         -|       13|     -|        no|       -|       -|    8 (~0%)|   88 (~0%)|    -|
+    |  o write_results                               |       -|   7.30|       11|  110.000|         2|        1|    11|       yes|       -|       -|          -|          -|    -|
+    +------------------------------------------------+--------+-------+---------+---------+----------+---------+------+----------+--------+--------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++------------+------------+---------------+--------+----------+
+| Interface  | Data Width | Address Width | Offset | Register |
++------------+------------+---------------+--------+----------+
+| s_axi_CTRL | 32         | 5             | 16     | 0        |
++------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface  | Register | Offset | Width | Access | Description                      | Bit Fields                                                           |
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_CTRL | CTRL     | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_CTRL | GIER     | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_CTRL | IP_IER   | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_CTRL | IP_ISR   | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_CTRL | n        | 0x10   | 32    | W      | Data signal of n                 |                                                                      |
++------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* AXIS
++---------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface     | Direction | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++---------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| input_stream  | in        | both          | 32    | 4     | 1     | 1      | 4     | 1      |
+| output_stream | out       | both          | 32    | 4     | 1     | 1      | 4     | 1      |
++---------------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++---------------+-----------+--------------------------------------------------------+
+| Argument      | Direction | Datatype                                               |
++---------------+-----------+--------------------------------------------------------+
+| n             | in        | int                                                    |
+| input_stream  | in        | stream<hls::axis<ap_int<32>, 0, 0, 0, '8', false>, 0>& |
+| output_stream | out       | stream<hls::axis<ap_int<32>, 0, 0, 0, '8', false>, 0>& |
++---------------+-----------+--------------------------------------------------------+
+
+* SW-to-HW Mapping
++---------------+---------------+-----------+-----------------------------+
+| Argument      | HW Interface  | HW Type   | HW Info                     |
++---------------+---------------+-----------+-----------------------------+
+| n             | s_axi_CTRL    | register  | name=n offset=0x10 range=32 |
+| input_stream  | input_stream  | interface |                             |
+| output_stream | output_stream | interface |                             |
++---------------+---------------+-----------+-----------------------------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++------------------------------------------------+-----+--------+--------------+-----------+--------------------------+---------+
+| Name                                           | DSP | Pragma | Variable     | Op        | Impl                     | Latency |
++------------------------------------------------+-----+--------+--------------+-----------+--------------------------+---------+
+| + calculate_statistics                         | 5   |        |              |           |                          |         |
+|   faddfsub_32ns_32ns_32_5_full_dsp_1_U75       |     |        | icmp_ln86    | setgt     | auto                     | 0       |
+|   sitofp_32ns_32_6_no_dsp_1_U80                |     |        | conv         | sitofp    | auto                     | 5       |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | mean_val     | fdiv      | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | x_assign     | fdiv      | fabric                   | 15      |
+|   fsqrt_32ns_32ns_32_16_no_dsp_1_U81           |     |        | std_dev      | fsqrt     | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | x_assign_3   | fdiv      | fabric                   | 15      |
+|   fsqrt_32ns_32ns_32_16_no_dsp_1_U81           |     |        | rms_val      | fsqrt     | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | mean_abs     | fdiv      | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | skewness_val | fdiv      | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U78            |     |        | div          | fdiv      | fabric                   | 15      |
+|   faddfsub_32ns_32ns_32_5_full_dsp_1_U75       | 2   |        | kurtosis_val | fsub      | fulldsp                  | 4       |
+|   faddfsub_32ns_32ns_32_5_full_dsp_1_U75       | 2   |        | sub2         | fsub      | fulldsp                  | 4       |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | div1         | fdiv      | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U77            |     |        | div2         | fdiv      | fabric                   | 15      |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U79            |     |        | div3         | fdiv      | fabric                   | 15      |
+|   fmul_32ns_32ns_32_4_max_dsp_1_U76            | 3   |        | mul5         | fmul      | maxdsp                   | 3       |
+|   fdiv_32ns_32ns_32_16_no_dsp_1_U78            |     |        | div4         | fdiv      | fabric                   | 15      |
+|  + calculate_statistics_Pipeline_read_data     | 0   |        |              |           |                          |         |
+|    icmp_ln86_fu_154_p2                         |     |        | icmp_ln86    | seteq     | auto                     | 0       |
+|    add_ln86_fu_160_p2                          |     |        | add_ln86     | add       | fabric                   | 0       |
+|  + calculate_statistics_Pipeline_calc_sum      | 0   |        |              |           |                          |         |
+|    icmp_ln96_fu_152_p2                         |     |        | icmp_ln96    | seteq     | auto                     | 0       |
+|    add_ln96_fu_176_p2                          |     |        | add_ln96     | add       | fabric                   | 0       |
+|    sparsemux_9_2_32_1_1_U11                    |     |        | tmp          | sparsemux | compactencoding_dontcare | 0       |
+|  + calculate_statistics_Pipeline_calc_std      | 0   |        |              |           |                          |         |
+|    icmp_ln105_fu_164_p2                        |     |        | icmp_ln105   | setlt     | auto                     | 0       |
+|    add_ln105_fu_188_p2                         |     |        | add_ln105    | add       | fabric                   | 0       |
+|    sparsemux_9_2_32_1_1_U21                    |     |        | tmp_1        | sparsemux | compactencoding_dontcare | 0       |
+|  + calculate_statistics_Pipeline_find_minmax   | 0   |        |              |           |                          |         |
+|    icmp_ln116_fu_184_p2                        |     |        | icmp_ln116   | setlt     | auto                     | 0       |
+|    sparsemux_9_2_32_1_1_U30                    |     |        | y_assign     | sparsemux | compactencoding_dontcare | 0       |
+|    icmp_ln247_fu_287_p2                        |     |        | icmp_ln247   | setne     | auto                     | 0       |
+|    icmp_ln247_1_fu_293_p2                      |     |        | icmp_ln247_1 | seteq     | auto                     | 0       |
+|    or_ln247_fu_299_p2                          |     |        | or_ln247     | or        | auto                     | 0       |
+|    icmp_ln247_2_fu_305_p2                      |     |        | icmp_ln247_2 | setne     | auto                     | 0       |
+|    icmp_ln247_3_fu_311_p2                      |     |        | icmp_ln247_3 | seteq     | auto                     | 0       |
+|    or_ln247_1_fu_317_p2                        |     |        | or_ln247_1   | or        | auto                     | 0       |
+|    fcmp_32ns_32ns_1_2_no_dsp_1_U29             |     |        | tmp_6        | fcmp      | auto                     | 1       |
+|    and_ln247_fu_323_p2                         |     |        | and_ln247    | and       | auto                     | 0       |
+|    and_ln247_1_fu_329_p2                       |     |        | and_ln247_1  | and       | auto                     | 0       |
+|    min_val_fu_335_p3                           |     |        | min_val      | select    | auto_sel                 | 0       |
+|    icmp_ln241_fu_358_p2                        |     |        | icmp_ln241   | setne     | auto                     | 0       |
+|    icmp_ln241_1_fu_364_p2                      |     |        | icmp_ln241_1 | seteq     | auto                     | 0       |
+|    or_ln241_fu_370_p2                          |     |        | or_ln241     | or        | auto                     | 0       |
+|    fcmp_32ns_32ns_1_2_no_dsp_1_U29             |     |        | tmp_9        | fcmp      | auto                     | 1       |
+|    and_ln241_fu_376_p2                         |     |        | and_ln241    | and       | auto                     | 0       |
+|    and_ln241_1_fu_381_p2                       |     |        | and_ln241_1  | and       | auto                     | 0       |
+|    max_val_fu_387_p3                           |     |        | max_val      | select    | auto_sel                 | 0       |
+|    add_ln116_fu_235_p2                         |     |        | add_ln116    | add       | fabric                   | 0       |
+|  + calculate_statistics_Pipeline_calc_rms      | 0   |        |              |           |                          |         |
+|    icmp_ln125_fu_154_p2                        |     |        | icmp_ln125   | setlt     | auto                     | 0       |
+|    add_ln125_fu_178_p2                         |     |        | add_ln125    | add       | fabric                   | 0       |
+|    sparsemux_9_2_32_1_1_U42                    |     |        | tmp_4        | sparsemux | compactencoding_dontcare | 0       |
+|  + calculate_statistics_Pipeline_calc_abs_mean | 0   |        |              |           |                          |         |
+|    icmp_ln134_fu_150_p2                        |     |        | icmp_ln134   | setlt     | auto                     | 0       |
+|    add_ln134_fu_174_p2                         |     |        | add_ln134    | add       | fabric                   | 0       |
+|    sparsemux_9_2_32_1_1_U50                    |     |        | dc           | sparsemux | compactencoding_dontcare | 0       |
+|  + calculate_statistics_Pipeline_calc_moments  | 0   |        |              |           |                          |         |
+|    icmp_ln144_fu_198_p2                        |     |        | icmp_ln144   | setlt     | auto                     | 0       |
+|    add_ln144_fu_222_p2                         |     |        | add_ln144    | add       | fabric                   | 0       |
+|    sparsemux_9_2_32_1_1_U60                    |     |        | tmp_2        | sparsemux | compactencoding_dontcare | 0       |
+|  + calculate_statistics_Pipeline_write_results | 0   |        |              |           |                          |         |
+|    icmp_ln176_fu_97_p2                         |     |        | icmp_ln176   | seteq     | auto                     | 0       |
+|    add_ln176_fu_103_p2                         |     |        | add_ln176    | add       | fabric                   | 0       |
+|    out_pkt_last_fu_114_p2                      |     |        | out_pkt_last | seteq     | auto                     | 0       |
++------------------------------------------------+-----+--------+--------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++------------------------------------------+---------------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name                                     | Usage         | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                                          |               |           |      |      |        |          |      |         | Banks            |
++------------------------------------------+---------------+-----------+------+------+--------+----------+------+---------+------------------+
+| + calculate_statistics                   |               |           | 4    | 0    |        |          |      |         |                  |
+|   CTRL_s_axi_U                           | interface     | s_axilite |      |      |        |          |      |         |                  |
+|   data_U                                 | ram_1p array  |           | 1    |      |        | data     | auto | 1       | 32, 256, 1       |
+|   fmul_32ns_32ns_32_4_max_dsp_1_U76      | ram_1p array  |           | 2    |      |        | data_1   | auto | 1       | 32, 256, 1       |
+|   faddfsub_32ns_32ns_32_5_full_dsp_1_U75 | ram_1p array  |           | 2    |      |        | data_2   | auto | 1       | 32, 256, 1       |
+|   faddfsub_32ns_32ns_32_5_full_dsp_1_U75 | ram_1p array  |           | 2    |      |        | data_3   | auto | 1       | 32, 256, 1       |
+|   fmul_32ns_32ns_32_4_max_dsp_1_U76      | ram_t2p array |           |      |      |        | results  | auto | 1       | 32, 11, 1        |
++------------------------------------------+---------------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+-----------------------------------------------------------+-------------------------------------------------------------+
+| Type            | Options                                                   | Location                                                    |
++-----------------+-----------------------------------------------------------+-------------------------------------------------------------+
+| interface       | mode = axis port = A_ROW name = A_ROW                     | ../../src/MatrixComplex.cpp:4 in auto_parkcalc              |
+| interface       | mode = s_axilite port = size bundle = AXICTRL name = size | ../../src/MatrixComplex.cpp:5 in auto_parkcalc              |
+| interface       | mode = axis port = ID name = ID                           | ../../src/MatrixComplex.cpp:6 in auto_parkcalc              |
+| interface       | mode = axis port = IQ name = IQ                           | ../../src/MatrixComplex.cpp:7 in auto_parkcalc              |
+| interface       | mode = s_axilite port = return bundle = AXICTRL           | ../../src/MatrixComplex.cpp:8 in auto_parkcalc              |
+| interface       | mode = axis port = A_ROW name = A_ROW                     | ../../src/MatrixComplex.cpp:50 in auto_parkcalc_two_streams |
+| interface       | mode = s_axilite port = size bundle = AXICTRL name = size | ../../src/MatrixComplex.cpp:51 in auto_parkcalc_two_streams |
+| interface       | mode = axis port = ID name = ID                           | ../../src/MatrixComplex.cpp:52 in auto_parkcalc_two_streams |
+| interface       | mode = axis port = IQ name = IQ                           | ../../src/MatrixComplex.cpp:53 in auto_parkcalc_two_streams |
+| interface       | mode = axis port = IQ2 name = IQ2                         | ../../src/MatrixComplex.cpp:54 in auto_parkcalc_two_streams |
+| interface       | mode = s_axilite port = return bundle = AXICTRL           | ../../src/MatrixComplex.cpp:55 in auto_parkcalc_two_streams |
+| interface       | mode = axis port = input_stream_id                        | ../../src/MatrixComplex.cpp:100 in complex_mag_stream       |
+| interface       | mode = axis port = input_stream_iq                        | ../../src/MatrixComplex.cpp:101 in complex_mag_stream       |
+| interface       | mode = axis port = output_stream                          | ../../src/MatrixComplex.cpp:102 in complex_mag_stream       |
+| interface       | mode = s_axilite port = n bundle = CTRL                   | ../../src/MatrixComplex.cpp:103 in complex_mag_stream       |
+| interface       | mode = s_axilite port = return bundle = CTRL              | ../../src/MatrixComplex.cpp:104 in complex_mag_stream       |
+| interface       | axis port=input_stream                                    | ../../src/StatsCalc.cpp:5 in subtract_mean, input_stream    |
+| interface       | axis port=output_stream                                   | ../../src/StatsCalc.cpp:6 in subtract_mean, output_stream   |
+| interface       | s_axilite port=n bundle=CTRL                              | ../../src/StatsCalc.cpp:7 in subtract_mean, n               |
+| interface       | s_axilite port=return bundle=CTRL                         | ../../src/StatsCalc.cpp:8 in subtract_mean, return          |
+| array_partition | variable=buffer cyclic factor=4                           | ../../src/StatsCalc.cpp:12 in subtract_mean, buffer         |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:26 in subtract_mean                 |
+| stream          | variable=temp_stream depth=2                              | ../../src/StatsCalc.cpp:40 in subtract_mean, temp_stream    |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:48 in subtract_mean                 |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:56 in subtract_mean                 |
+| interface       | axis port = input_stream                                  | ../../src/StatsCalc.cpp:74 in calculate_statistics          |
+| interface       | axis port = output_stream                                 | ../../src/StatsCalc.cpp:75 in calculate_statistics          |
+| interface       | s_axilite port = n bundle = CTRL                          | ../../src/StatsCalc.cpp:76 in calculate_statistics          |
+| interface       | s_axilite port = return bundle = CTRL                     | ../../src/StatsCalc.cpp:77 in calculate_statistics          |
+| array_partition | variable = data cyclic factor = 4                         | ../../src/StatsCalc.cpp:80 in calculate_statistics          |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:87 in calculate_statistics          |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:97 in calculate_statistics          |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:106 in calculate_statistics         |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:117 in calculate_statistics         |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:126 in calculate_statistics         |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:135 in calculate_statistics         |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:145 in calculate_statistics         |
+| pipeline        |                                                           | ../../src/StatsCalc.cpp:177 in calculate_statistics         |
+| interface       | axis port = input_stream                                  | ../../src/StreamConverters.cpp:4 in pack_stream_to_blk      |
+| interface       | axis port = blk_stream                                    | ../../src/StreamConverters.cpp:5 in pack_stream_to_blk      |
+| interface       | s_axilite port = n bundle = CTRL                          | ../../src/StreamConverters.cpp:6 in pack_stream_to_blk      |
+| interface       | s_axilite port = return bundle = CTRL                     | ../../src/StreamConverters.cpp:7 in pack_stream_to_blk      |
+| interface       | axis port = blk_stream                                    | ../../src/StreamConverters.cpp:37 in unpack_blk_to_stream   |
+| interface       | axis port = output_stream                                 | ../../src/StreamConverters.cpp:38 in unpack_blk_to_stream   |
+| interface       | s_axilite port = n bundle = CTRL                          | ../../src/StreamConverters.cpp:39 in unpack_blk_to_stream   |
+| interface       | s_axilite port = return bundle = CTRL                     | ../../src/StreamConverters.cpp:40 in unpack_blk_to_stream   |
+| interface       | axis port = blk_stream                                    | ../../src/ZeroCross.cpp:4 in zero_cross                     |
+| interface       | axis port = segment_length_stream                         | ../../src/ZeroCross.cpp:5 in zero_cross                     |
+| interface       | s_axilite port = n bundle = CTRL                          | ../../src/ZeroCross.cpp:6 in zero_cross                     |
+| interface       | s_axilite port = Tms bundle = CTRL                        | ../../src/ZeroCross.cpp:7 in zero_cross                     |
+| interface       | s_axilite port = return bundle = CTRL                     | ../../src/ZeroCross.cpp:8 in zero_cross                     |
++-----------------+-----------------------------------------------------------+-------------------------------------------------------------+
+
+

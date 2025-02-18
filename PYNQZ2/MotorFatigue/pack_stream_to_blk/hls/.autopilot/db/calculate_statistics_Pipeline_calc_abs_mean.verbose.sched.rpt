@@ -1,0 +1,219 @@
+
+
+================================================================
+== Vitis HLS Report for 'calculate_statistics_Pipeline_calc_abs_mean'
+================================================================
+* Date:           Tue Feb 18 03:51:28 2025
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        pack_stream_to_blk
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.256 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+    |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |        ?|        ?|         ?|         ?|    0|    0|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-----------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                 |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |    Loop Name    |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-----------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- calc_abs_mean  |        ?|        ?|         8|          6|          1|     ?|       yes|
+        +-----------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 6, depth = 8
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 8
+* Pipeline : 1
+  Pipeline-0 : II = 6, D = 8, States = { 1 2 3 4 5 6 7 8 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 4.84>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%abs_sum = alloca i32 1" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132]   --->   Operation 11 'alloca' 'abs_sum' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%i_5 = alloca i32 1" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 12 'alloca' 'i_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%n_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %n"   --->   Operation 13 'read' 'n_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (1.58ns)   --->   "%store_ln134 = store i31 0, i31 %i_5" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 14 'store' 'store_ln134' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 15 [1/1] (1.58ns)   --->   "%store_ln132 = store i32 0, i32 %abs_sum" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132]   --->   Operation 15 'store' 'store_ln132' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc70"   --->   Operation 16 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%i = load i31 %i_5" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 17 'load' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%zext_ln134 = zext i31 %i" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 18 'zext' 'zext_ln134' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (2.55ns)   --->   "%icmp_ln134 = icmp_slt  i32 %zext_ln134, i32 %n_read" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 19 'icmp' 'icmp_ln134' <Predicate = true> <Delay = 2.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%br_ln134 = br i1 %icmp_ln134, void %for.end72.loopexit.exitStub, void %for.inc70.split" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 20 'br' 'br_ln134' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%lshr_ln5 = partselect i8 @_ssdm_op_PartSelect.i8.i31.i32.i32, i31 %i, i32 2, i32 9" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132]   --->   Operation 21 'partselect' 'lshr_ln5' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%zext_ln132 = zext i8 %lshr_ln5" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132]   --->   Operation 22 'zext' 'zext_ln132' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%data_addr = getelementptr i32 %data, i64 0, i64 %zext_ln132" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 23 'getelementptr' 'data_addr' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%data_1_addr = getelementptr i32 %data_1, i64 0, i64 %zext_ln132" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 24 'getelementptr' 'data_1_addr' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%data_2_addr = getelementptr i32 %data_2, i64 0, i64 %zext_ln132" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 25 'getelementptr' 'data_2_addr' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%data_3_addr = getelementptr i32 %data_3, i64 0, i64 %zext_ln132" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 26 'getelementptr' 'data_3_addr' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_1 : Operation 27 [2/2] (3.25ns)   --->   "%data_load = load i8 %data_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 27 'load' 'data_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 28 [2/2] (3.25ns)   --->   "%data_1_load = load i8 %data_1_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 28 'load' 'data_1_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 29 [2/2] (3.25ns)   --->   "%data_2_load = load i8 %data_2_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 29 'load' 'data_2_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 30 [2/2] (3.25ns)   --->   "%data_3_load = load i8 %data_3_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 30 'load' 'data_3_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+
+State 2 <SV = 1> <Delay = 5.08>
+ST_2 : Operation 31 [1/1] (2.52ns)   --->   "%add_ln134 = add i31 %i, i31 1" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 31 'add' 'add_ln134' <Predicate = true> <Delay = 2.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%trunc_ln134 = trunc i31 %i" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 32 'trunc' 'trunc_ln134' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_2 : Operation 33 [1/2] ( I:3.25ns O:3.25ns )   --->   "%data_load = load i8 %data_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 33 'load' 'data_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_2 : Operation 34 [1/2] ( I:3.25ns O:3.25ns )   --->   "%data_1_load = load i8 %data_1_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 34 'load' 'data_1_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_2 : Operation 35 [1/2] ( I:3.25ns O:3.25ns )   --->   "%data_2_load = load i8 %data_2_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 35 'load' 'data_2_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_2 : Operation 36 [1/2] ( I:3.25ns O:3.25ns )   --->   "%data_3_load = load i8 %data_3_addr" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 36 'load' 'data_3_load' <Predicate = (icmp_ln134)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_2 : Operation 37 [1/1] (1.82ns)   --->   "%dc = sparsemux i32 @_ssdm_op_SparseMux.ap_auto.4float.float.i2, i2 0, i32 %data_load, i2 1, i32 %data_1_load, i2 2, i32 %data_2_load, i2 3, i32 %data_3_load, i32 <undef>, i2 %trunc_ln134" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 37 'sparsemux' 'dc' <Predicate = (icmp_ln134)> <Delay = 1.82> <CoreInst = "BinarySparseMux_DontCare">   --->   Core 137 'BinarySparseMux_DontCare' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'sparsemux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%data_4 = bitcast i32 %dc" [/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:288->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:12->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:13->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/absfloat.cpp:7->/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 38 'bitcast' 'data_4' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "%t = trunc i32 %data_4" [/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:313->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:326->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:347->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:14->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:13->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/absfloat.cpp:7->/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 39 'trunc' 't' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (1.58ns)   --->   "%store_ln134 = store i31 %add_ln134, i31 %i_5" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 40 'store' 'store_ln134' <Predicate = (icmp_ln134)> <Delay = 1.58>
+ST_2 : Operation 53 [1/1] (0.00ns)   --->   "%abs_sum_load_1 = load i32 %abs_sum"   --->   Operation 53 'load' 'abs_sum_load_1' <Predicate = (!icmp_ln134)> <Delay = 0.00>
+ST_2 : Operation 54 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_auto.floatP0A, i32 %abs_sum_out, i32 %abs_sum_load_1"   --->   Operation 54 'write' 'write_ln0' <Predicate = (!icmp_ln134)> <Delay = 0.00>
+ST_2 : Operation 55 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 55 'ret' 'ret_ln0' <Predicate = (!icmp_ln134)> <Delay = 1.58>
+
+State 3 <SV = 2> <Delay = 7.25>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%abs_sum_load = load i32 %abs_sum" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 41 'load' 'abs_sum_load' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%zext_ln313 = zext i31 %t" [/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:313->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:326->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:347->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:14->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:13->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/absfloat.cpp:7->/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 42 'zext' 'zext_ln313' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%bitcast_ln327 = bitcast i32 %zext_ln313" [/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:327->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/src/hls/utils/x_hls_utils.h:347->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_copysign.h:14->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/include/FloatingPoint/hls_fabs.h:13->/wrk/ci/prod/2024.2/hls_product/continuous/495/2024.2/src/shared/hls/clib/hlsmath/src/c++/absfloat.cpp:7->/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 43 'bitcast' 'bitcast_ln327' <Predicate = (icmp_ln134)> <Delay = 0.00>
+ST_3 : Operation 44 [5/5] (7.25ns)   --->   "%abs_sum_1 = fadd i32 %abs_sum_load, i32 %bitcast_ln327" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 44 'fadd' 'abs_sum_1' <Predicate = (icmp_ln134)> <Delay = 7.25> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 7.25> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 4 <SV = 3> <Delay = 7.25>
+ST_4 : Operation 45 [4/5] (7.25ns)   --->   "%abs_sum_1 = fadd i32 %abs_sum_load, i32 %bitcast_ln327" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 45 'fadd' 'abs_sum_1' <Predicate = (icmp_ln134)> <Delay = 7.25> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 7.25> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 5 <SV = 4> <Delay = 7.25>
+ST_5 : Operation 46 [3/5] (7.25ns)   --->   "%abs_sum_1 = fadd i32 %abs_sum_load, i32 %bitcast_ln327" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 46 'fadd' 'abs_sum_1' <Predicate = (icmp_ln134)> <Delay = 7.25> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 7.25> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 6 <SV = 5> <Delay = 7.25>
+ST_6 : Operation 47 [2/5] (7.25ns)   --->   "%abs_sum_1 = fadd i32 %abs_sum_load, i32 %bitcast_ln327" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 47 'fadd' 'abs_sum_1' <Predicate = (icmp_ln134)> <Delay = 7.25> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 7.25> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 7 <SV = 6> <Delay = 7.25>
+ST_7 : Operation 48 [1/5] (7.25ns)   --->   "%abs_sum_1 = fadd i32 %abs_sum_load, i32 %bitcast_ln327" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136]   --->   Operation 48 'fadd' 'abs_sum_1' <Predicate = true> <Delay = 7.25> <CoreInst = "FAddSub_fulldsp">   --->   Core 18 'FAddSub_fulldsp' <Latency = 4> <II = 1> <Delay = 7.25> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 8 <SV = 7> <Delay = 1.58>
+ST_8 : Operation 49 [1/1] (0.00ns)   --->   "%specpipeline_ln135 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:135]   --->   Operation 49 'specpipeline' 'specpipeline_ln135' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 50 [1/1] (0.00ns)   --->   "%specloopname_ln134 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 50 'specloopname' 'specloopname_ln134' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 51 [1/1] (1.58ns)   --->   "%store_ln132 = store i32 %abs_sum_1, i32 %abs_sum" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132]   --->   Operation 51 'store' 'store_ln132' <Predicate = true> <Delay = 1.58>
+ST_8 : Operation 52 [1/1] (0.00ns)   --->   "%br_ln134 = br void %for.inc70" [/home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134]   --->   Operation 52 'br' 'br_ln134' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 4.842ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln134', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134) of constant 0 on local variable 'i', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134 [10]  (1.588 ns)
+	'load' operation 31 bit ('i', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134) on local variable 'i', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:134 [14]  (0.000 ns)
+	'getelementptr' operation 8 bit ('data_addr', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [26]  (0.000 ns)
+	'load' operation 32 bit ('data_load', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) on array 'data' [30]  (3.254 ns)
+
+ <State 2>: 5.081ns
+The critical path consists of the following:
+	'load' operation 32 bit ('data_load', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) on array 'data' [30]  (3.254 ns)
+	'sparsemux' operation 32 bit ('x', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [34]  (1.827 ns)
+
+ <State 3>: 7.256ns
+The critical path consists of the following:
+	'load' operation 32 bit ('abs_sum_load', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) on local variable 'abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132 [20]  (0.000 ns)
+	'fadd' operation 32 bit ('abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [39]  (7.256 ns)
+
+ <State 4>: 7.256ns
+The critical path consists of the following:
+	'fadd' operation 32 bit ('abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [39]  (7.256 ns)
+
+ <State 5>: 7.256ns
+The critical path consists of the following:
+	'fadd' operation 32 bit ('abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [39]  (7.256 ns)
+
+ <State 6>: 7.256ns
+The critical path consists of the following:
+	'fadd' operation 32 bit ('abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [39]  (7.256 ns)
+
+ <State 7>: 7.256ns
+The critical path consists of the following:
+	'fadd' operation 32 bit ('abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136) [39]  (7.256 ns)
+
+ <State 8>: 1.588ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln132', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132) of variable 'abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:136 on local variable 'abs_sum', /home/admin/Desktop/SOCExtraFeatures/src/StatsCalc.cpp:132 [41]  (1.588 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

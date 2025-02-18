@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 28,
+    "calls": "",
+    "file": "StatsCalc.cpp",
+    "fileloc": 73,
+    "instructions": 279,
+    "loads": {
+      "L": 27
+    },
+    "name": "calculate_statistics",
+    "stores": {
+      "L": 19
+    },
+    "total_instructions": 290
+  }
+}
